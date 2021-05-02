@@ -3,3 +3,8 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+header   {
+    font-size: 1rem;
+    border-bottom: 1px;
+    margin-bottom: 0.5rem;
+}
