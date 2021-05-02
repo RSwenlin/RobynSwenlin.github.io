@@ -10,8 +10,12 @@ header   {
 }
 header   {
     text-align: center;
-    border: 3px solid #672146;
-    background-color: #c9c9c9;
-    color: #672146;
+    border: 3px solid #050a30;
+    background-color: #000c66;
+    color: #a9a9a9;
+
+}
+main image   {
+    border: 3px solid #050a30;
 
 }
