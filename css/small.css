@@ -33,4 +33,12 @@ footer {
 }
 header img {
     border: 3px solid #672146;
+    border-radius: 15px 50px 30px;
+}
+main h2 {
+    color:snow;
+    border:black;
+    background-color: dimgray;
+    border-radius: 25px;
+    padding: 1rem;
 }
