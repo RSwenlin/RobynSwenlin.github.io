@@ -22,3 +22,6 @@ main h2   {
     color: #000c66
 
 }
+img  {
+    grid-column: 1fr;
+}
