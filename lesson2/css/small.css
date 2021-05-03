@@ -11,6 +11,11 @@ header, main, section {
 header h2 {
     font-family: cursive;
 }
+header h6 {
+    text-align:end;
+    font-family:sans-serif
+
+}
 header   {
     font-size: 1rem;
     border-bottom: 1px;
@@ -33,8 +38,11 @@ main h2 img {
 }
 
 section {
-    border: 3px solid #050a30;
+    border: 1px solid #050a30;
 }
 section, h2 {
     text-align: center;
+}
+section img {
+    max-width: 60%;
 }
