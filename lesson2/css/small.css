@@ -15,7 +15,10 @@ header   {
     color: #a9a9a9;
 
 }
-main image   {
+main h2   {
     border: 3px solid #050a30;
+    text-align: center;
+    background-color: #a9a9a9;
+    color: #000c66
 
 }
