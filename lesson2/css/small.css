@@ -3,10 +3,19 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+header, main, section {
+    max-width: 760px;
+   
+
+}
+header h2 {
+    font-family: cursive;
+}
 header   {
     font-size: 1rem;
     border-bottom: 1px;
     margin-bottom: 0.5rem;
+    border-radius: 15px 50px 30px;
 }
 header   {
     text-align: center;
@@ -15,7 +24,7 @@ header   {
     color: #a9a9a9;
 
 }
-main h2 img  {
+main h2 img {
     border: 3px solid #050a30;
     text-align: center;
     background-color: #a9a9a9;
@@ -23,3 +32,9 @@ main h2 img  {
 
 }
 
+section {
+    border: 3px solid #050a30;
+}
+section, h2 {
+    text-align: center;
+}
