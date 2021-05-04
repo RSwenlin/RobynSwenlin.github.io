@@ -1,8 +1,4 @@
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 
-}
 header, main, section {
     max-width: 760px;
    
