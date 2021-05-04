@@ -45,3 +45,9 @@ section, h2, h4 {
 section img {
     max-width: 60%;
 }
+main p {
+    border: #000c66;
+    background-color: #a9a9a9;
+    padding: .5em;
+    border-radius: 20px;
+}
