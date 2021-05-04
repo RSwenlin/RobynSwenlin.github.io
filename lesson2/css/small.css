@@ -35,6 +35,8 @@ main h2 img {
 
 section {
     border: 1px solid #050a30;
+    padding: 1em;
+    border-radius: 25px;
 }
 section, h2 {
     text-align: center;
