@@ -1,8 +1,9 @@
 @media only screen and (min-width: 32em) {
     
-}
-main {
+
+    main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
 
 }
