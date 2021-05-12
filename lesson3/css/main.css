@@ -1,54 +1,48 @@
 nav div {
-    display: block;
+  display: block;
 }
 header img {
-    max-width: 10%;
+  max-width: 10%;
 }
 h1 {
-    color: blue;
-    text-align: center;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
 }
 h2 {
-    text-align: center;
-    
+  text-align: center;
 }
 h1 h2 {
-    border:darkmagenta;
-
+  border: darkmagenta;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 p {
-    font-family: oswald;
+  font-family: oswald;
 }
 
 .flex-container {
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    box-sizing: border-box;
-    
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
 }
-.flext-item-left {
-    background-color: cadetblue;
-    padding: 10px;
-    flex: 33%;
+.flex-item-left {
+  background-color: slategray;
+  padding: 10px;
 }
-.flext-item-center {
-    background-color: darkblue;
-    padding: 10px;
-    flex: 33%;
-
+.flex-item-center {
+  background-color: darkorange;
+  padding: 10px;
 }
-flex-item-right {
-    background-color: darkgrey;
-    padding: 10px;
-    flex: 33%;
+.flex-item-right {
+  background-color: slategray;
+  padding: 10px;
 }
 footer {
-    text-align: end;
-    font-size: 15px;
-    font-weight: bold;
-    color: orange;
+  text-align: end;
+  font-size: 15px;
+  font-weight: bold;
+  color: orange;
 }
