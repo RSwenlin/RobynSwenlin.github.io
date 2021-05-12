@@ -1,7 +1,9 @@
 @media only screen and (min-width: 32em) {
 
-    main {
-    display: flex;
+    div {
+        width: 500px;
+        display: flex;
+        flex: 1 1 1;
 }
 
 }

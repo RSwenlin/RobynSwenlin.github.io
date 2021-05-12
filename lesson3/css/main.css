@@ -1,4 +1,4 @@
-main {
+nav div {
     display: block;
 }
 header img {
@@ -6,4 +6,7 @@ header img {
 }
 a {
     text-decoration: none;
+}
+p {
+    font-family: oswald;
 }
