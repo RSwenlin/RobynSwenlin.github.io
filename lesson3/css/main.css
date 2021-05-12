@@ -4,12 +4,34 @@ nav div {
 header img {
     max-width: 10%;
 }
-header {
-    border:
+h1 {
+    border: black;
 }
 a {
     text-decoration: none;
 }
 p {
     font-family: oswald;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.flext-item-left {
+    background-color: cadetblue;
+    padding: 10px;
+    flex: 33%;
+}
+.flext-item-center {
+    background-color: darkblue;
+    padding: 10px;
+    flex: 33%;
+
+}
+flex-item-right {
+    background-color: darkgrey;
+    padding: 10px;
+    flex: 33%;
 }
