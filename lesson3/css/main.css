@@ -28,6 +28,7 @@ p {
     font-size: 30px;
     text-align: center;
     box-sizing: border-box;
+    
 }
 .flext-item-left {
     background-color: cadetblue;
@@ -49,5 +50,5 @@ footer {
     text-align: end;
     font-size: 15px;
     font-weight: bold;
-    color: darkred;
+    color: orange;
 }
