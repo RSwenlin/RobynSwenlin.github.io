@@ -5,7 +5,16 @@ header img {
     max-width: 10%;
 }
 h1 {
-    border: black;
+    color: blue;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    
+}
+h1 h2 {
+    border:darkmagenta;
+
 }
 a {
     text-decoration: none;
@@ -18,6 +27,7 @@ p {
     display: flex;
     font-size: 30px;
     text-align: center;
+    box-sizing: border-box;
 }
 .flext-item-left {
     background-color: cadetblue;
@@ -34,4 +44,10 @@ flex-item-right {
     background-color: darkgrey;
     padding: 10px;
     flex: 33%;
+}
+footer {
+    text-align: end;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkred;
 }
