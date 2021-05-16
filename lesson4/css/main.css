@@ -4,9 +4,12 @@ header img {
 
 }
 header {
+    max-width: auto;
+    height: auto;
     background-color: whitesmoke;
     padding: 5px 0;
     display: flex;
+    flex-direction: column;
     
 }
 .headings {
@@ -16,9 +19,11 @@ header {
     justify-content: center;
 }
 .m {
+    display: flex;
     font-style: italic;
     letter-spacing: 1pt;
     color: navy;
+    padding: .4em;
     margin-left: 20px;
     font-size: .9rem;
     justify-content:center;
@@ -29,12 +34,22 @@ h1 {
 
 }
 h2 {
+    display: flex;
     font-style: bold;
     color:white;
     background-color:slategray;
     margin-left: 25px;
     justify-content: center;
     padding: 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 .contents {
     color: white;
@@ -49,8 +64,10 @@ h2 {
     padding: .5em;
 }
 nav {
+    margin: 0 auto;
     background-color: lightgray;
     font-family: Oswald;
+    max-width: 760px;
 }
 nav ul {
     list-style-type: none;
