@@ -49,10 +49,33 @@ h2 {
     padding: .5em;
 }
 nav {
-    background-color: grey;
+    background-color: lightgray;
+    font-family: Oswald;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+nav button {
+    margin: .2rem 3%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color:slategray;
+
+}
+a {
+    text-decoration: none;
+}
+nav ul li a {
+    display: block;
+    padding: .7rem 2%;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+nav ul li.highlight a{background-color: rgba(0,0,0,0.2);
 }
 
