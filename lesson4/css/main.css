@@ -51,4 +51,8 @@ h2 {
 nav {
     background-color: grey;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
