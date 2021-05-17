@@ -7,16 +7,18 @@ header {
     max-width: auto;
     height: auto;
     background-color: whitesmoke;
-    padding: 5px 0;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     
 }
 .headings {
+  
     display: flex;
     flex-direction: column;
     margin: .5px;
     justify-content: center;
+   
 }
 .m {
     display: flex;
@@ -36,7 +38,7 @@ h1 {
 h2 {
     display: flex;
     font-style: bold;
-    color:white;
+    color: darkorange;
     background-color:slategray;
     margin-left: 25px;
     justify-content: center;
@@ -50,6 +52,9 @@ footer {
     display: flex;
     justify-content: center;
     margin: 0;
+}
+ {
+
 }
 .contents {
     color: white;
@@ -66,38 +71,51 @@ footer {
 nav {
     margin: 0 auto;
     background-color: lightgray;
-    font-family: Oswald;
+    font-family: oswald;
     max-width: 760px;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-nav button {
-    margin: .2rem 3%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color:slategray;
-
-}
-a {
-    text-decoration: none;
-}
-nav ul li a {
+.navigation li:first-child {
     display: block;
-    padding: .7rem 2%;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
     color: black;
-    border-top: 1px solid rgba(0,0,0,0.3);
-
+    font-weight: 700;
 }
-nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
-nav ul li.highlight a {background-color: rgba(0,0,0,0.2);
+.navigation a:hover {
+    color: white;
+    background-color: grey;
+}
+.responsive li {
+    display: block;
+}
+date {
+    color: darkslateblue;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+footer p {
+    color: darkorange;
+}
+footer a {
+    color: slategray;
+    text-decoration: none;
+    
+    padding: .2em;
+    font-style: italic;
+
 }

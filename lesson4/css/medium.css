@@ -1,18 +1,17 @@
 @media only screen and (min-width: 35em) {
     
-  nav button {
+  .navigation {
+      display: flex;
+  }
+  .navigation li {
+      display: block;
+      flex: 1 1 auto;
+  }
+  .navigation a {
+      text-align: center;
+  }
+  .navigation li:first-child {
       display: none;
-    }
-    nav ul {
-        margin-left: .7rem;
-    }
-    nav ul li {
-        float: left;
-    }
-    nav ul li a {
-        border: none;
-        border-right: 1.3px solid rgba(0,0,0,0.3);
-        padding: 1rem 1.2rem;
-    }
+  }
   }
   
