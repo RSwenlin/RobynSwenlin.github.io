@@ -4,20 +4,31 @@ header img {
 
 }
 header {
-    max-width: auto;
     height: auto;
     background-color: whitesmoke;
     padding: 50px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     
 }
+picture {
+    float:left;
+    padding: .01em;
+    margin-top: 0mm;
+    margin-left: 0mm;
+
+    
+}
+
 .headings {
-  
     display: flex;
     flex-direction: column;
     margin: .5px;
     justify-content: center;
+    margin-top: 0rem;
+    margin-left: 0rem;
+
    
 }
 .m {
@@ -39,6 +50,7 @@ h2 {
     display: flex;
     font-style: bold;
     color: darkorange;
+    text-shadow: 0 0 3px darkslategrey, 0 0 5px navy;
     background-color:slategray;
     margin-left: 25px;
     justify-content: center;
