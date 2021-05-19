@@ -51,9 +51,10 @@ h2 {
     padding: 1em;
 }
 main {
-    
+    max-width: 760px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 footer {
     display: flex;
