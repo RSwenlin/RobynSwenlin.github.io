@@ -51,7 +51,7 @@ h2 {
     padding: 1em;
 }
 main {
-    max-width: 80px;
+    
     display: flex;
     flex-direction: column;
 }
