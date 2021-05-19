@@ -23,25 +23,38 @@ header, main, footer {
     border-top: 1px;
 
 }
+main {
+    background-color: rgb(119, 62, 71);
+}
 
 header,
 footer {
     text-align: center;
-    border: 3px solid #672146;
+  
     background-color: #c9c9c9;
     color: #672146;
     margin: 0 auto;
 
 }
 header img {
-    border: 3px solid #672146;
-    border-radius: 15px 50px 30px;
+  
     
 }
 main h2 {
     color:snow;
     border:black;
     background-color: dimgray;
-    border-radius: 25px;
+    
     padding: 1rem;
+}
+ul li {
+    padding: 5px;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+hr {
+    color: white;
 }

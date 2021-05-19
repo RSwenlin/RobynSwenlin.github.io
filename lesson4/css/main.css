@@ -46,7 +46,7 @@ h2 {
     color: darkorange;
     text-shadow: 0 0 3px darkslategrey, 0 0 5px navy;
     background-color:slategray;
-    margin-left: 25px;
+    
     justify-content: center;
     padding: 1em;
 }
@@ -59,21 +59,21 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
 }
- {
+{
 
 }
 .contents {
     color: white;
     background-color: slategray;
-    margin-left: 25px;
+    
     padding: .5em;
 }
 .content {
     color: white;
     background-color: lightgray;
-    margin-left: 25px;
+    
     padding: .5em;
 }
 nav {
@@ -89,7 +89,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 .navigation li:first-child {
     display: block;
