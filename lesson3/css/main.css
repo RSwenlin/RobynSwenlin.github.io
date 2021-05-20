@@ -46,3 +46,6 @@ footer {
   font-weight: bold;
   color: orange;
 }
+nav img p {
+  align-content: center;
+}
