@@ -15,9 +15,9 @@ body {
 
 main {
 	margin: 0.5rem;
-	border: 1px solid #999;
+	border: 1px solid purple;
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: purple;
 	display: grid;
 	grid-template-columns: 1;
 }
@@ -28,7 +28,8 @@ button {
 }
 
 label {
-	font-size: 0.8rem;
+    font-size: 0.8rem;
+    color: white;
 }
 .listcontainer {
 	border: 1px solid #bbb;
