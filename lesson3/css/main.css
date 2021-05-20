@@ -7,14 +7,12 @@ header img {
 h1 {
   color: black;
   text-align: center;
-  border: 1px solid black;
+  
 }
 h2 {
   text-align: center;
 }
-h1 h2 {
-  border: darkmagenta;
-}
+
 a {
   text-decoration: none;
 }
@@ -46,6 +44,33 @@ footer {
   font-weight: bold;
   color: orange;
 }
-nav img p {
-  align-content: center;
+nav img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  color:  #3F547F;
+}
+.cs {
+  
+  text-align: center;
+  margin-top: 0;
+  max-width: 760px;
+  font-size: 60px;
+  padding: 50px;
+  background-color: #dddddd;
+  color: #f58735;
+
+}
+.ta {
+  text-align: center;
+  margin-top: 0;
+  max-width: 760px;
+  font-size: 60px;
+  padding: 50px;
+  background-color: #dddddd;
+  color: #f58735;
+
 }
