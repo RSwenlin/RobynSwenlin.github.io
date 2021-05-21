@@ -11,12 +11,14 @@ button.addEventListener('click', () => {
         li.textContent = fav.value;
         deletebutton.textContent = '❌';
         // add the button to the li
-        li.appendChild(deletebutton);
+        li.append(deletebutton);
         output.append(li);
         deletebutton.addEventListener('click', function()
         {
             output.removeChild(li);
             fav.focus;
-        }
+        });
+        fav.value = '';
+        fav.focus;
 }
 });
