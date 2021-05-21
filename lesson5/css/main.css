@@ -148,16 +148,16 @@ footer a {
 }
 .herodiv {
     position: relative;
-    
     width: 960px;
-    height: 300px;
+    height: 400px;
+    
+    
 }
 .hero-ph {
     margin: 10px auto;
     background-color: slategray;
     border: 1px solid black;
-    width: 859px;
-    height: 300px;
+    width: 100%;
     position: relative;
 
 }

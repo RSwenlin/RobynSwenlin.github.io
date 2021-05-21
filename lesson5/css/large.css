@@ -3,7 +3,11 @@
     main {
     display: flex;
 }
-.hero-ph {
-  
+.herodiv {
+    width: 960px;
+    height: 300px;
+
+}
+
 
 }
