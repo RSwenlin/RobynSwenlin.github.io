@@ -150,14 +150,14 @@ footer a {
     position: relative;
     
     width: 960px;
-    height: 650px;
+    height: 300px;
 }
 .hero-ph {
     margin: 10px auto;
     background-color: slategray;
     border: 1px solid black;
-    width: 775px;
-    height: 650px;
+    width: 859px;
+    height: 300px;
     position: relative;
 
 }
