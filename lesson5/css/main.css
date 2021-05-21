@@ -3,8 +3,15 @@ header img {
     height: auto;
 
 }
+head {
+    max-width: 960px;
+}
+body {
+    max-width: 960px;
+}
 
 header {
+    
     height: auto;
     background-color: whitesmoke;
     padding: 25px;
@@ -131,12 +138,19 @@ footer p {
 }
 
 footer a {
+    
     color: slategray;
     text-decoration: none;
     
     padding: .2em;
     font-style: italic;
 
+}
+.herodiv {
+    position: relative;
+    border: 1px dashed black;
+    width: 960px;
+    height: 300px;
 }
 .hero-ph {
     margin: 10px auto;
@@ -145,4 +159,10 @@ footer a {
     width: 960px;
     height: 300px;
 
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
