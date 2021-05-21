@@ -3,7 +3,7 @@ const button = document.querySelector('button');
 const output = document.querySelector('.list');
 
 button.addEventListener('click', () => {
-    if (fav.value !=''){
+    if (fav.value != '' ){
         // create the element in the list
         let li = createElement('li');
         let deletebutton = document.createElement('button');
@@ -13,5 +13,10 @@ button.addEventListener('click', () => {
         // add the button to the li
         li.appendChild(deletebutton);
         output.append(li);
+        deletebutton.addEventListener('click', function()
+        {
+            output.removeChild(li);
+            fav.focus;
+        }
 }
 });
