@@ -5,7 +5,7 @@ const output = document.querySelector('.list');
 button.addEventListener('click', () => {
     if (fav.value != '' ){
         // create the element in the list
-        let li = createElement('li');
+        let li = document.createElement('li');
         let deletebutton = document.createElement('button');
         // change some properties ... textcontent
         li.textContent = fav.value;
