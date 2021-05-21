@@ -3,15 +3,8 @@ header img {
     height: auto;
 
 }
-head {
-    max-width: 960px;
-}
-body {
-    max-width: 960px;
-}
 
-header {
-    
+header { 
     height: auto;
     background-color: whitesmoke;
     padding: 25px;
@@ -58,10 +51,11 @@ h2 {
     background-color:slategray;
     justify-content: center;
     padding: 1em;
+    
 }
 
 main {
-    max-width: 760px;
+    max-width: 960px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -90,7 +84,7 @@ nav {
     margin: 0 auto;
     background-color: lightgray;
     font-family: oswald;
-    max-width: 760px;
+   
 }
 
 .navigation {
@@ -149,7 +143,7 @@ footer a {
 .herodiv {
     position: relative;
     width: 960px;
-    height: 400px;
+    height: 453px;
     
     
 }
