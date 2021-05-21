@@ -225,8 +225,14 @@ a {
 }
 article img {
     width: 60%;
+    box-shadow: 0 0 10px navy;
 }
 .article h2 {
     background-color: dimgray;
     color: white;
+    
+}
+.pageinfo {
+    text-align: center;
+    background-color: slategray;
 }
