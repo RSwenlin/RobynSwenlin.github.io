@@ -138,3 +138,11 @@ footer a {
     font-style: italic;
 
 }
+.hero-ph {
+    margin: 10px auto;
+    background-color: slategray;
+    border: 1px solid black;
+    width: 960px;
+    height: 300px;
+
+}
