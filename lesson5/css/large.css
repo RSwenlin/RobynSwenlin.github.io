@@ -3,7 +3,9 @@
     main {
     display: flex;
 }
-
+.hero-ph {
+    width: 100%;
+}
 
 
 }

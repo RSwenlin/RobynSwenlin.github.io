@@ -13,6 +13,8 @@
     .navigation li:first-child {
         display: none;
     }
-   
+    .hero-ph {
+        width: 75%;
+    }
     
     }
