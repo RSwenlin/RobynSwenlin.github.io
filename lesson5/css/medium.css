@@ -19,5 +19,8 @@
     .hero-ph {
         width: 75%;
     }
+    .map {
+        float:left;
+    }
     
     }

@@ -9,6 +9,9 @@
 .forecast {
     display: contents;
 }
+.map {
+    float:left;
+}
 
 
 }

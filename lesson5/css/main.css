@@ -123,6 +123,10 @@ nav ul {
     color: white;
     background-color: grey;
 }
+.highlight:hover {
+    background-color: darkorange;
+    
+}
 
 .responsive li {
     display: block;
@@ -243,4 +247,7 @@ article img {
 .stickyicon-list a {
     color: blue;
 
+}
+.map {
+    float:none;
 }
