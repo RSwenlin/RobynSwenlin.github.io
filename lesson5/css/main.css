@@ -3,6 +3,12 @@ header img {
     height: auto;
 
 }
+.banner {
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+    width: 30%;
+}
 
 header { 
     height: auto;
@@ -70,7 +76,8 @@ footer {
     margin: 0 auto;
 }
 .highlight {
-    text-decoration: underline;
+    text-decoration:  underline overline wavy blue;
+    text-shadow: 0 0 1px slategray; 
 }
 
 .contents {

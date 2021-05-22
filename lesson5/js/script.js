@@ -13,3 +13,10 @@ const now = new Date();
 const fulldate = new
 Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 datefield.textContent= fulldate;
+
+const now = new Date().getDay;
+if (day = fri) {
+    document.querySelector("banner").innerHTML = "&#129374Pancake day on Fridays only!!";
+  }
+
+  
