@@ -6,6 +6,9 @@
 .hero-ph {
     width: 100%;
 }
+.forecast {
+    display: contents;
+}
 
 
 }

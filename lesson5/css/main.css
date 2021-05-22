@@ -175,6 +175,9 @@ footer a {
     color: navy;
     text-shadow: none;
 }
+.forecast {
+    display: none;
+}
 .flex {
     display: flex;
     /* flex-direction: row; */
@@ -209,7 +212,7 @@ a {
      border-radius: 100px;
     padding: 0.25rem;
     text-align: center;
-    
+    text-decoration: none;
 }
 .data {
     display: block;
@@ -224,6 +227,7 @@ a {
     color: whitesmoke;
 }
 article img {
+    float:right;
     width: 60%;
     box-shadow: 0 0 10px navy;
 }
@@ -235,4 +239,8 @@ article img {
 .pageinfo {
     text-align: center;
     background-color: slategray;
+}
+.stickyicon-list a {
+    color: blue;
+
 }

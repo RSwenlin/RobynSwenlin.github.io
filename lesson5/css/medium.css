@@ -13,6 +13,9 @@
     .navigation li:first-child {
         display: none;
     }
+    .forecast {
+        display: contents;
+    }
     .hero-ph {
         width: 75%;
     }
