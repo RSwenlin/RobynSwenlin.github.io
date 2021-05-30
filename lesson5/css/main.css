@@ -8,6 +8,7 @@ header img {
     color: white;
     padding: 20px;
     opacity: 50%;
+    display: none;
     
 }
 
@@ -90,7 +91,6 @@ footer {
 .content {
     color: white;
     background-color: lightgray;
-    
     padding: .5em;
 }
 
@@ -136,10 +136,8 @@ nav ul {
 }
 .highlight:hover {
     background-color: darkorange;
-    
-    
+       
 }
-
 
 .responsive li {
     display: block;
