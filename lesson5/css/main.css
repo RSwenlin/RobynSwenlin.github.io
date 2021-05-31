@@ -17,7 +17,7 @@ header {
     background-color: whitesmoke;
     padding: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,6 @@ h1 {
 }
 h2 {
     display: flex;
-    font-style: bold;
     color: darkorange;
     text-shadow: 0 0 3px darkslategrey, 0 0 5px navy;
     background-color:slategray;
@@ -162,8 +161,6 @@ footer a {
 .herodiv {
     position: relative;
     width: 960px;
-    height: 453px;
-    
     
 }
 .hero-ph {
@@ -214,7 +211,7 @@ footer a {
     color: white;
 }
 .flex, .column, .grid {
-    border-right: 1px solid navy:
+    border-right: 1px solid navy;
 }
 .col-head {
     display: block;
