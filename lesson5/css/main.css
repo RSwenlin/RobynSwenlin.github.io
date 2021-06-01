@@ -53,9 +53,9 @@ h1 {
 }
 h2 {
     display: flex;
-    color: darkorange;
-    text-shadow: 0 0 3px darkslategrey, 0 0 5px navy;
-    background-color:slategray;
+    color: navy;
+    text-shadow: 0 0 3px darkorange, 0 0 5px navy;
+    background-color:lightsteelblue;
     justify-content: center;
     padding: 1em;
     margin-top: 0em;
@@ -66,7 +66,7 @@ main {
     max-width: 960px;
     display: flex;
     flex-direction: column;
-    margin-top: 0em;
+   
     margin: 0 auto;
     
 }
@@ -83,13 +83,13 @@ footer {
 
 .contents {
     color: white;
-    background-color: slategray;
+    background-color: navy;
     padding: .5em;
 }
 
 .content {
     color: white;
-    background-color: lightgray;
+    background-color: navy;
     padding: .5em;
 }
 
@@ -174,7 +174,7 @@ footer a {
 
 .weathersummary {
     position: absolute;
-    top: 400px;
+    /* top: 400px; */
     left: 150px;
     background-color: whitesmoke;
     border: 1px orange;
