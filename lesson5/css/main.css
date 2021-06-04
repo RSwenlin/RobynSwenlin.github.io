@@ -36,7 +36,7 @@ header {
 }
 
 .m {
-    display: flex;
+    display: flex; 
     font-style: italic;
     letter-spacing: 1pt;
     color: navy;
@@ -63,10 +63,9 @@ h2 {
 }
 
 main {
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-   
+    /* max-width: 960px; */
+    /* display: flex; */
+    /* flex-direction: column; */
     margin: 0 auto;
     
 }
@@ -98,7 +97,7 @@ nav {
     margin: 0 auto;
     background-color: lightgray;
     font-family: oswald;
-    max-width: 960px;
+    /* max-width: 960px; */
    
 }
 
@@ -160,7 +159,7 @@ footer a {
 }
 .herodiv {
     position: relative;
-    width: 960px;
+    /* width: 960px; */
     
 }
 .hero-ph {
@@ -168,14 +167,14 @@ footer a {
     background-color: slategray;
     border: 1px solid black;
     width: 49%;
-    position: relative;
+    /* position: relative; */
 
 }
 
 .weathersummary {
     position: absolute;
-    /* top: 400px; */
-    left: 150px;
+    top: 50px; 
+    left: 20px;
     background-color: whitesmoke;
     border: 1px orange;
     padding: .5rem;

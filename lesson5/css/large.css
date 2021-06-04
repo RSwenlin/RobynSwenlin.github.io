@@ -1,7 +1,9 @@
 @media only screen and (min-width: 64em) {
 
-    main {
-    display: flex;
+    main { 
+        max-width: 960px;
+    }
+    /* display: flex; */
 }
 .hero-ph {
     width: 100%;
