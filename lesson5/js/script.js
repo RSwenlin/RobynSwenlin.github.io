@@ -1,19 +1,17 @@
-const hambutton = document.querySelector(".ham");
-const mainnav = document.querySelector(".navigation");
+// const hambutton = document.querySelector(".ham");
+// const mainnav = document.querySelector(".navigation");
 
-hambutton.addEventListener("click", () =>
-{mainnav.classList.toggle("responsive")}, false);
-
-
+// hambutton.addEventListener("click", () =>
+// {mainnav.classList.toggle("responsive")}, false);
 
 
 
-const thedate = new Date();
-if (thedate.getDay() != 5) {
-    document.querySelector(".banner").innerHTML = "&#129374Pancake day on Fridays only!!";
-  }
+
+
+
   const date = new Date();
-  document.querySelector("#theyear").innerHTML = date.getFullYear();
+document.querySelector("#theyear").innerHTML = date.getFullYear();
+document.querySelector("#lastmod").innerHTML = document.lastModified;
 
 
   //const datefield =
