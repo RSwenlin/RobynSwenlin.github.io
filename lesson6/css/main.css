@@ -176,6 +176,7 @@ footer a {
     top: 50px; 
     left: 20px;
     background-color: whitesmoke;
+    opacity: 0.5;
     border: 1px orange;
     padding: .5rem;
     box-shadow: 0 0 10px orange;
