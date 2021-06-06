@@ -80,13 +80,7 @@ footer {
     text-shadow: 0 0 1px slategray; 
 }
 
-.contents {
-    color: white;
-    background-color: navy;
-    padding: .5em;
-}
-
-.content {
+.content, .temp, .wind {
     color: white;
     background-color: navy;
     padding: .5em;
@@ -182,6 +176,7 @@ footer a {
     box-shadow: 0 0 10px orange;
     
 }
+
 .forecast h2 {
     background-color: whitesmoke;
     color: navy;
