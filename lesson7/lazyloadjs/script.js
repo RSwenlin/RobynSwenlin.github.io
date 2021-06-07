@@ -1,6 +1,14 @@
-const images = document.querySelectorAll("[data-src]");
+const images = document.querySelectorAll("img[data-src]");
 
-const imgOptions = {};
+const loadImages = (image) => {
+
+};
+
+const imgOptions = {
+
+};
+
+if ("IntersectionObserver" in window) {
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) =>  {
     entries.forEach(entry => {
@@ -13,7 +21,9 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) =>  {
 
 }, imgOptions);
 
+images.forEach
 
+}
 
 const date = new Date();
 document.querySelector("#theyear").innerHTML = date.getFullYear();
