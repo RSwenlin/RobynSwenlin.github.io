@@ -1,11 +1,14 @@
 
-    picture img[data-src] { 
+    img[data-src] { 
         filter: blur(0.2em); 
    } 
-    picture img { 
+    img { 
+        border: 1px solid maroon;
         filter: blur(0em); 
         transition: filter 0.8s; 
+        border: maroon;
     
     } 
 
   /* not working!!!!! ^ */
+  
