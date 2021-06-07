@@ -1,12 +1,18 @@
-
-    img[data-src] { 
-        filter: blur(0.2em); 
-   } 
+    main {
+        display: grid;
+        grid-template-columns: 1;
+      grid-template-rows: 7;
+      justify-content: center;
+    }
     img { 
-        border: 1px solid maroon;
+        filter: blur(0.2em);
+        border: 3px solid navy;
+   } 
+    img[data-src] { 
+        /* border: 1px solid maroon; */
         filter: blur(0em); 
-        transition: filter 0.8s; 
-        border: maroon;
+        transition: filter 2s; 
+        
     
     } 
 
