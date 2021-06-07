@@ -23,7 +23,9 @@ const imgObserver = new IntersectionObserver(entries =>  {
 
 }, imgOptions);
 
-images.forEach
+images.forEach((img) => {
+
+}
 
 }
 
