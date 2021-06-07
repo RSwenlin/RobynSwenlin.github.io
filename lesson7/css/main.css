@@ -257,3 +257,14 @@ article img {
 .pageinfo li {
     list-style-type: none;
 }
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
+    
+}
+.gallery-container img { width: 450px; height: auto; margin: auto;}
+
+.gallery {
+    text-align:start;
+}
