@@ -258,7 +258,7 @@ article img {
     list-style-type: none;
 }
 .gallery {
-    max-width: 1048px;
+    /* max-width: 1048px; */
     text-align:center;
     color: white;
     background-color: darkslategray;
@@ -266,21 +266,29 @@ article img {
 }
 
 .gallery-main {
-    max-width: 1048px;
-    margin: 0;  
+    /* max-width: 1048px; */
+    margin: .5em;  
 }
 
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px; 
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px; 
 }
-    
-
-.gallery-container img 
-    { width: 400px;
+.gallery-images {
+    margin: .5em;
 }
 
+
+.gallery-container img {
+        width: 450px;
+        height: 325px;
+
+}
+figcaption {
+    background-color: lightslategrey;
+    padding: .5em;
+}
 
 
    
