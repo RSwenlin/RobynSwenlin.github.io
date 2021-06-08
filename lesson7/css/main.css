@@ -262,9 +262,17 @@ article img {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
     
+    
+    
 }
-.gallery-container img { width: 450px; height: auto; margin: auto;}
+.gallery-container img { width: 400px; height: auto; margin: 0;
+padding: 0em;
+}
 
 .gallery {
-    text-align:start;
+    text-align:center;
+}
+.gallery-main {
+    margin: 0;
+   
 }
