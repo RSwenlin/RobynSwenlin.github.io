@@ -257,22 +257,30 @@ article img {
 .pageinfo li {
     list-style-type: none;
 }
-.gallery-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.gallery {
     max-width: 1048px;
-    
-    
-    
-}
-.gallery-container img { width: 400px; height: auto; margin: 0;
-padding: 0em;
+    text-align:center;
+    color: white;
+    background-color: darkslategray;
+    padding: .5em;
 }
 
-.gallery {
-    text-align:center;
-}
 .gallery-main {
-    margin: 0;
-   
+    max-width: 1048px;
+    margin: 0;  
 }
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px; 
+}
+    
+
+.gallery-container img 
+    { width: 400px;
+}
+
+
+
+   
