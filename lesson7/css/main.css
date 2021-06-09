@@ -261,7 +261,7 @@ article img {
     /* max-width: 1048px; */
     text-align:center;
     color: white;
-    background-color: darkslategray;
+    background-color: #375e7c;
     padding: .5em;
 }
 
@@ -277,6 +277,7 @@ article img {
 }
 .gallery-images {
     margin: .5em;
+    background-color: #E18515;
 }
 
 
@@ -286,7 +287,8 @@ article img {
 
 }
 figcaption {
-    background-color: lightslategrey;
+    
+    background-color:  whitesmoke;
     padding: .5em;
 }
 
