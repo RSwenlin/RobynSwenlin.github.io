@@ -1,0 +1,19 @@
+@media only screen and (min-width: 64em) {
+
+    main { 
+        max-width: 960px;
+    }
+    /* display: flex; */
+
+.hero-ph {
+    width: 100%;
+}
+.forecast {
+    display: contents;
+}
+.map {
+    float:left;
+}
+
+
+}
