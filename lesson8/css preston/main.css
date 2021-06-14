@@ -151,9 +151,9 @@ footer p {
 
 footer a {
     
-    color: slategray;
+    color: lightgrey;
     text-decoration: none;
-    padding: .2em;
+    padding: 1em;
     font-style: italic;
 
 }
@@ -251,7 +251,7 @@ article img {
 }
 .contact-info {
     text-align: center;
-    background-color: slategray;
+    
 }
 .stickyicon-list a {
     color: blue;
@@ -352,5 +352,19 @@ form label.top input:required:valid {
     background-color: #375e7c;
     color: floralwhite;
     padding: 1em;
+}
+.thanks {
+    background-color: #375e7c;
+    color: white;
+    padding: 2em;
+
+}
+.thanks-footer {
+    display: block;
+    background-color: lightgrey;
+    color: black;
+    padding: 1em;
+    max-width: 360px;
+
 }
    
