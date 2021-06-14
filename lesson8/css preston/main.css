@@ -316,6 +316,7 @@ form label.top, form div {
     font-size: 1rem;
 }
 form label.top input, form label.top select {
+    -webkit-appearance: none;
     display: block;
     font-size: 1.2rem;
     border: solid 1.2px darkgrey;
@@ -344,6 +345,8 @@ form input.submitBtn {
 form label.top input:required {
     border-left: red solid 6px;
 }
-form label.top input
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
 
    
