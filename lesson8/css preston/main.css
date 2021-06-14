@@ -355,6 +355,8 @@ form label.top input:required:valid {
     background-color: #375e7c;
     color: floralwhite;
     padding: 1em;
+    text-align: center;
+
 }
 .thanks {
     background-color: #375e7c;
