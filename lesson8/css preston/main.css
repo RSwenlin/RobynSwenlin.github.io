@@ -147,11 +147,12 @@ date {
 
 footer p {
     color: darkorange;
+    display: inline;
 }
 
 footer a {
-    
-    color: lightgrey;
+    display:inline;
+    color: black;
     text-decoration: none;
     padding: 1em;
     font-style: italic;
