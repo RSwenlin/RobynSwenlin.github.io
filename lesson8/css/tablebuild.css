@@ -1,3 +1,7 @@
 body {
     font-family: Ubuntu, sans-serif;
 }
+thead, tfoot {
+    background-color: #628ca6;
+    color: black;
+}
