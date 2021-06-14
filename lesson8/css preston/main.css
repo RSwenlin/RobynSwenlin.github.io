@@ -299,9 +299,51 @@ figcaption {
 }
 /* form */
 form fieldset {
-    margin 2rem 0;
-    border: 1px solid 
+    margin: 2rem 0;
+    border: 1px solid #375e7c;
+    border-radius: 10px;
+    padding: .5rem 2%;
 }
-
+form legend {
+    color: #375e7c;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #e18515;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1.2rem;
+    border: solid 1.2px darkgrey;
+    border-radius: 3px;
+    padding: 1rem;
+    color: #e18515;
+    width: 100%;
+    max-width: 20rem;
+    background-color: whitesmoke;
+}
+form label.sbs {
+    
+    padding: 2rem;
+    color: #375e7c;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #375e7c;
+    color: white;
+    border-radius: .5rem;
+    padding: .8rem 1.2rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input
 
    
