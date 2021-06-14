@@ -297,6 +297,11 @@ figcaption {
     background-color:  whitesmoke;
     padding: .5em;
 }
+/* form */
+form fieldset {
+    margin 2rem 0;
+    border: 1px solid 
+}
 
 
    
