@@ -1,7 +1,22 @@
-body {
-    font-family: Ubuntu, sans-serif;
+ body { 
+    font-family: Ubuntu, sans-serif; 
+ } 
+table {
+    display: grid;
+    columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    
 }
+
 thead, tfoot {
-    background-color: #628ca6;
+    background-color: #7fb9c2;
     color: black;
+    columns: 1fr;
+    text-align: center;
+}
+
+.ltcolor {
+    background-color: #e7f0ed;
+    
 }
