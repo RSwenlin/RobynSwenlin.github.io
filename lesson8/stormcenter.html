@@ -57,8 +57,8 @@
                 <label class="sbs"><input type="radio" name="location" value="Soda Springs"> Soda Springs</label>
                 <label class="sbs"><input type="radio" name="location" value="Fish Haven"> Fish Haven</label>
                 <div>Type of Weather</div>
-                <label for="type-of-weather">Storm Type:</label>
-                <input list="type-of-storms" id="type-of-storms" name="type-of-weather"/>
+                <label class="sbs" for="type-of-weather">Storm Type:</label>
+                <input list="type-of-storms" name="type-of-weather"/>
                 <datalist id="type-of-storms">
                     <option value="Flash Floods">
                     <option value="Hail">
@@ -70,6 +70,8 @@
                 <div>User in Danger?</div>
                 <label class="sbs"><input type="checkbox" name="Yes" value="yes"> Yes</label>
                 <label class="sbs"><input type="checkbox" name="No" value="yes"> No</label>
+                <div>Storm Severity</div>
+                <label class="sbs"><input type="range" name="severity" min="0" max="10"> Severity</label>
 
                 <div>Additional Information</div>
                 <textarea rows="4" cols="50">
