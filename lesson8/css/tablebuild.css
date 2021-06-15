@@ -1,22 +1,32 @@
- body { 
-    font-family: Ubuntu, sans-serif; 
- } 
+body {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+}
 table {
-    display: grid;
-    columns: 1fr 1fr 1fr;
-    text-align: center;
-    justify-content: center;
-    
+  box-shadow: 0 0 30% #333;
+  border-collapse: collapse;
 }
 
-thead, tfoot {
-    background-color: #7fb9c2;
-    color: black;
-    columns: 1fr;
-    text-align: center;
+thead,
+tfoot {
+  background-color: #7fb9c2;
+  color: black;
 }
-
+thead {
+  font-size: 2rem;
+}
 .ltcolor {
-    background-color: #e7f0ed;
-    
+  background-color: #e7f0ed;
+}
+th,
+td {
+  padding: 0.5rem;
+}
+td {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid grey;
 }
