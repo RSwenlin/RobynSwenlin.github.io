@@ -3,7 +3,7 @@ body {
   font-size: 16px;
 }
 table {
-  box-shadow: 0 0 30% #333;
+  box-shadow: 0 0 30px #333;
   border-collapse: collapse;
 }
 
