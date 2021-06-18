@@ -1,0 +1,30 @@
+header,
+main,
+footer {
+  max-width: 860px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 6px;
+  border: 1.5px solid lightskyblue;
+  padding: 15px;
+  background-color: navy;
+  color: white;
+}
+
+main section {
+  margin-left: 20px;
+}
+footer {
+  border-top: 0.75px solid darkred;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.utah {
+  display: grid;
+}
+section img {
+  width: 100px;
+}
