@@ -11,6 +11,12 @@ h1 {
   background-color: navy;
   color: white;
 }
+h2,
+h3,
+p {
+  padding: 5px;
+  background-color: whitesmoke;
+}
 
 main section {
   margin-left: 20px;
@@ -26,5 +32,6 @@ footer {
   display: grid;
 }
 section img {
-  width: 100px;
+  width: 175px;
+  box-shadow: 0 0 60px grey;
 }
