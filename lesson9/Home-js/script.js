@@ -8,6 +8,10 @@
   })
   .then(function (jsonObject) {
   const towns = jsonObject['towns'];
+
+  const town = towns.filter(x => x.name == 'Preston'
+   || x.name == 'Soda Springs' || x.name == 'Fish Haven');
+   town.forEach(towns => {
   for (let i = 0; i < towns.length; i++ ) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
