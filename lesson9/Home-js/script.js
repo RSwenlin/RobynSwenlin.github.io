@@ -11,27 +11,28 @@ fetch(requestURL)
     const town = towns.filter(x => x.name == 'Preston'
    || x.name == 'Soda Springs' || x.name == 'Fish Haven');
 
-town.forEach(towns => {
-for (let i = 0; i < towns.length; i++ ) {
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let img = document.createElement('img');
-    let p = document.createElement('p')
+town.forEach(function (towns) {
 
-    h2.textContent = `${town[i].name} + ${town[i].motto}`;
-    p.textContent = `${town[i].yearFounded} ${town[i].currentPopulation} 
+        for (let i = 0; i < towns.length; i++) {
+            let card = document.createElement('section');
+            let h2 = document.createElement('h2');
+            let img = document.createElement('img');
+            let p = document.createElement('p');
+
+            h2.textContent = `${town[i].name} + ${town[i].motto}`;
+            p.textContent = `${town[i].yearFounded} ${town[i].currentPopulation} 
     ${town[i].averageRainfall}`;
-    img.setAttribute('src', `images/${town}`);
+            img.setAttribute('src', `images/${town.photo}`);
 
 
 
 
-    card.append(h2);
-    card.append(img);
-    card.append(p);
-    document.querySelector('div.cards').append(card);
-  }
-});
+            card.append(h2);
+            card.append(img);
+            card.append(p);
+            document.querySelector('div.cards').append(card);
+        }
+    });
 
 const date = new Date();
 document.querySelector("#theyear").innerHTML = date.getFullYear();
