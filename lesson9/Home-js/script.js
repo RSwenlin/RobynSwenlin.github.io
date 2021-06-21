@@ -18,7 +18,7 @@
     let img = document.createElement('img');
 
     h2.textContent = `${towns[i].name}`;
-    img.setAttribute('src', `images/${sodasprings.jpg}`
+    img.setAttribute('src', `images/${sodasprings.jpg}`);
 
 
 
