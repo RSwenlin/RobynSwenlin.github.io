@@ -13,19 +13,22 @@
    || x.name == 'Soda Springs' || x.name == 'Fish Haven');
    town.forEach(towns => {
 //   for (let i = 0; i < towns.length; i++ ) {
-    let cards = document.createElement('section');
+    let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let img = document.createElement('img');
+    let p = document.createElement('p')
 
-    h2.textContent = `${towns[i].name}`;
+    h2.textContent = `${town[i].name}`;
+    p.textContent = `${town[i].yearFounded}`;
     img.setAttribute('src', `images/${town}`);
 
 
 
 
-    cards.append(h2);
-    cards.append(img);
-    document.querySelector('div.cards').append(cards);
+    card.append(h2);
+    card.append(img);
+    card.append(p);
+    document.querySelector('div.cards').append(card);
   }
 );
 const date = new Date();
