@@ -18,8 +18,9 @@
     let img = document.createElement('img');
     let p = document.createElement('p')
 
-    h2.textContent = `${town[i].name}`;
-    p.textContent = `${town[i].yearFounded}`;
+    h2.textContent = `${town[i].name} + ${town[i].motto}`;
+    p.textContent = `${town[i].yearFounded} ${town[i].currentPopulation} 
+    ${town[i].averageRainfall}`;
     img.setAttribute('src', `images/${town}`);
 
 
