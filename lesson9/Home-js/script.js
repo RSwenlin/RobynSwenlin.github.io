@@ -13,21 +13,21 @@
    || x.name == 'Soda Springs' || x.name == 'Fish Haven');
    town.forEach(towns => {
 //   for (let i = 0; i < towns.length; i++ ) {
-    let card = document.createElement('section');
+    let cards = document.createElement('section');
     let h2 = document.createElement('h2');
     let img = document.createElement('img');
 
     h2.textContent = `${towns[i].name}`;
-    img.setAttribute('src', towns[i].sodaspring.jpg);
+    img.setAttribute('src', `images/${sodasprings.jpg}`
 
 
 
 
-    card.append(h2);
-    card.append(img);
-    document.querySelector('div.cards').append(card);
+    cards.append(h2);
+    cards.append(img);
+    document.querySelector('div.cards').append(cards);
   }
-});
+);
 const date = new Date();
 document.querySelector("#theyear").innerHTML = date.getFullYear();
 document.querySelector("#lastmod").innerHTML = document.lastModified;
