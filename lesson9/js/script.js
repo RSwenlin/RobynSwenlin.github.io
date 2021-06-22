@@ -16,19 +16,17 @@ fetch(requestURL)
     town.forEach((x) => {
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
-      let h5 = document.createElement("h5");
       let img = document.createElement("img");
       let p = document.createElement("p");
 
-      h2.textContent = `${x.name}`;
-      h5.textContent = `${x.motto}`;
-      p.textContent = `${x.yearFounded} ${x.currentPopulation} ${x.averageRainfall}`;
+      h2.innerHTML = `${x.name} <br> Town Motto "${x.motto}"`;
+
+      p.innerHTML = `The town was founded in ${x.yearFounded}. <br> The current population is ${x.currentPopulation}. <br> The average rainfall is ${x.averageRainfall} in.`;
       img.setAttribute("src", `images/${x.photo}`);
 
       card.append(h2);
       card.append(img);
       card.append(p);
-      card.append(h5);
 
       document.querySelector("div.cards").append(card);
     });
