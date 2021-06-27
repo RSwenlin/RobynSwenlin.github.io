@@ -1,0 +1,33 @@
+@media only screen and (min-width: 35em) {
+    
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .forecast {
+        display: contents;
+    }
+    .hero-ph {
+        width: 75%;
+    }
+    .map {
+        float:left;
+    }
+    .gallery-container {
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        /* column-gap: 10px;  */
+    }
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    }
