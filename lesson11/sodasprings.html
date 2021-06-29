@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DarkSky Weather</title>
+    <meta
+      name="description"
+      content="weather site for DarkSky weather,Soda Springs, ID by Robyn Swenlin"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link ref="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="images/DarkSky.png" alt="Dark Sky Logo" />
+      </picture>
+      <section class="headings">
+        <h1>DarkSky Weather</h1>
+        <div class="m">We don't let a "Dark Sky" ruin your day!</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <li><a href="#">&#127758;Home</a></li>
+        <li class="highlight"><a href="#">&#9889;Preston</a></li>
+        <li><a href="#">&#9832;&#65039;Soda Springs</a></li>
+        <li><a href="#">&#128031;Fish Haven</a></li>
+        <li><a href="stormcenter.html">&#127785;&#65039;Storm Center</a></li>
+        <li><a href="#">&#128992;Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Idaho Town of Soda Springs</h2>
+      <div class="herodiv">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/sodaspringssmall.jpg"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="images/sodaspringsmed.jpg"
+          />
+          <img src="images/fishhavenlg.jpg" alt="hero" />
+        </picture>
+        <!-- <img class="hero-ph" src="images/id.jpg" alt="downtown"> -->
+        <!--<aside class="banner"></aside><!-->
+        <section class="weathersummary">
+          <h3>Weather Summary</h3>
+          <div class="content">Currently: Rainy</div>
+          <div class="content">
+            Current Temp: <span id="temp"></span>49&deg;
+          </div>
+          <div class="content">
+            Wind Chill: <span id="windchill"></span>&deg;
+          </div>
+          <div class="content">Humidity; 39%</div>
+          <div class="content">Wind Speed:<span id="wind"></span>20mph</div>
+        </section>
+      </div>
+      <section class="forecast">
+        <h2>5 day Forecast</h2>
+        <div class="flex">
+          <div class="flex-col">
+            <span class="col-head">Mon</span>
+            <a>&#9788;</a>
+            <span class="data">75&#8457;</span>
+          </div>
+          <div class="flex-col">
+            <span class="col-head">Tue</span>
+            <a>&#9729;</a>
+            <span class="data">70&#8457;</span>
+          </div>
+          <div class="flex-col">
+            <span class="col-head">Wed</span>
+            <a>&#127783;</a>
+            <span class="data">67&#8457;</span>
+          </div>
+          <div class="flex-col">
+            <span class="col-head">Thu</span>
+            <a>&#9788;</a>
+            <span class="data">76&#8457;</span>
+          </div>
+          <div class="flex-col">
+            <span class="col-head">Fri</span>
+            <a>&#9788;</a>
+            <span class="data">78&#8457;</span>
+          </div>
+        </div>
+      </section>
+      <section class="article">
+        <article>
+          <h2>Vacation Rentals on the Rise!</h2>
+          <img src="images/fishhaven.jpg" alt="articlepic" />
+          <p>
+            Join us for a memorial day picnic. honors those we loved. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Animi facilis sint vitae
+            consectetur reprehenderit quidem dignissimos numquam nihil ipsa
+            facere. Id amet doloremque maiores libero in fugiat voluptates
+            reprehenderit nihil? is a teeny town in Idaho, just above the Utah
+            border. I am wondering if we drove through it when we went to visit
+            my sister in Twin Falls, or when we drove to Yellowstone. The
+            picture in this article is of Boise Idaho. It was such a fantastic
+            picture that if I have to take it out I will be annoyed. I have been
+            to Boise a few times, maybe 3. I really liked Boise. The rest of the
+            article is to be continued....
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="maps">
+        <a
+          class="map"
+          href="http://www.maphill.com/united-states/idaho/franklin-county/preston/maps/physical-map/"
+          title="Physical Map of Preston"
+          ><img
+            width="400"
+            height="332"
+            src="
+                 http://maps.maphill.com/atlas/42n05-112w05/maps/physical-map/physical-map-of-preston-idaho.jpg"
+            alt="Physical Map of Preston" /></a
+        ><br /><a
+          href="http://www.maphill.com/united-states/idaho/franklin-county/preston/maps/physical-map/"
+          title="Physical Map of Preston"
+        ></a>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li>DarkSky Weather</li>
+          <li>23 E 430 S</li>
+          <li>Preston, ID 83263</li>
+
+          <li>&#9742; 208-555-7777</li>
+          <li>&#9993; darkskyweather@dsky.com</li>
+        </ul>
+        <a class="stickyicon-list">
+          <a href="https://www.facebook.com/">facebook-f</a>
+          <a href="https://www.linkedin.com/">linkedin</a>
+        </a>
+      </div>
+
+      <div>
+        <p>
+          &copy; <span id="theyear"></span> | Robyn Swenlin | Utah |
+          <a href="https://www.byui.edu/online">&#9880; BYU I &#9880;</a>
+          <span id="lastmod"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="lesson8js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["oswald"],
+        },
+      });
+    </script>
+  </body>
+</html>
