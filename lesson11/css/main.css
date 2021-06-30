@@ -59,14 +59,20 @@ main {
 }
 
 footer {
-  display: inline;
+  display: grid;
+  grid-template-columns: 1fr;
   margin: 0 auto;
-  padding: 0 4px 4px;
-  font-size: 0.9rem;
+  padding: 20px;
+  font-size: 1.2rem;
   text-align: center;
   background-color: lightgray;
-  text-align: center;
+}
+footer ul {
   list-style-type: none;
+}
+.maps {
+  box-shadow: 10px 10px 5px grey;
+  float: left;
 }
 .stickyicon-list a {
   color: blue;
