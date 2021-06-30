@@ -341,3 +341,18 @@ form label.top input:required:valid {
   padding: 1em;
   max-width: 360px;
 }
+.homepics {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  background-color: #375e7c;
+}
+.homepics img {
+  padding: 6px;
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
