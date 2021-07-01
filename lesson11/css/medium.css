@@ -29,4 +29,8 @@
   footer {
     grid-template-columns: 1fr;
   }
+  .town section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

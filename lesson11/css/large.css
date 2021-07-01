@@ -38,4 +38,8 @@
   form label.sbs {
     padding: 0.4rem;
   }
+  .town section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
