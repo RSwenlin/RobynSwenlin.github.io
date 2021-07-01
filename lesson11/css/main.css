@@ -46,9 +46,9 @@ h1 {
 }
 h2 {
   display: flex;
-  color: navy;
+  color: whitesmoke;
   text-shadow: 0 0 3px darkorange, 0 0 5px navy;
-  background-color: lightsteelblue;
+  background-color: #375e7c;
   justify-content: center;
   padding: 1em;
   margin-top: 0em;
@@ -66,6 +66,7 @@ footer {
   font-size: 1.2rem;
   text-align: center;
   background-color: lightgray;
+  color: navy;
 }
 footer ul {
   list-style-type: none;
@@ -75,7 +76,7 @@ footer ul {
   float: left;
 }
 .stickyicon-list a {
-  color: blue;
+  color: #e18515;
 }
 
 .highlight {
@@ -152,6 +153,9 @@ date {
   border: 1px solid black;
   width: 49%;
   /* position: relative; */
+}
+.lgfh {
+  max-width: 960px;
 }
 
 .weathersummary {
