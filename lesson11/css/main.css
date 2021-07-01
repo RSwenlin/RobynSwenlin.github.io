@@ -301,7 +301,7 @@ form label.top select {
   border-radius: 3px;
   padding: 1rem;
   color: #e18515;
-  width: 100%;
+  /* width: auto; */
   max-width: 20rem;
   background-color: whitesmoke;
 }
