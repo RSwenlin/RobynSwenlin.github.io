@@ -75,9 +75,6 @@ footer ul {
   box-shadow: 10px 10px 5px grey;
   float: left;
 }
-.stickyicon-list {
-  color: #e18515;
-}
 
 .highlight {
   text-decoration: overline dashed blue;
@@ -217,6 +214,7 @@ a {
   padding: 0.25rem;
   text-align: center;
   text-decoration: none;
+  color: #e18515;
 }
 .data {
   display: block;
