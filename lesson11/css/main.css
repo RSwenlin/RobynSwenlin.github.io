@@ -52,6 +52,7 @@ h2 {
   justify-content: center;
   padding: 1em;
   margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 main {
@@ -70,6 +71,9 @@ footer {
 }
 footer ul {
   list-style-type: none;
+}
+footer img {
+  width: 90%;
 }
 .maps {
   box-shadow: 10px 10px 5px grey;
@@ -358,7 +362,39 @@ form label.top input:required:valid {
 img:hover {
   opacity: 1;
 }
-.cards {
-  display: flex;
-  flex-direction: row;
+
+.cards section {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.cards section img {
+  width: 90%;
+  margin: 0 auto;
+  border: darkslategrey;
+}
+h3 {
+  color: whitesmoke;
+  background-color: #375e7c;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+.cards p {
+  background-color: lightgrey;
+  color: navy;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  padding: 4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 2em;
+}
+.cards h2 {
+  padding-top: 2em;
+  padding-bottom: 0.2em;
 }
