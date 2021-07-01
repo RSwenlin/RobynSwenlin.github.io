@@ -358,3 +358,7 @@ form label.top input:required:valid {
 img:hover {
   opacity: 1;
 }
+.cards {
+  display: flex;
+  flex-direction: row;
+}
