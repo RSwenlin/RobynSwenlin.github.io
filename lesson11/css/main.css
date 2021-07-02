@@ -358,46 +358,6 @@ form label.top input:required:valid {
 img:hover {
   opacity: 1;
 }
-/* 
-.cards section {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  text-align: center;
-  padding: 1em;
-}
-
-.cards section img {
-  /* display: flex;
-  flex-direction: column; */
-/* width: 90%;
-  margin: 0 auto;
-  border: darkslategrey;
-} */
-
-/* h3 {
-  color: whitesmoke;
-  background-color: #375e7c;
-  padding-top: 0.5em;
-  padding-bottom: 2em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  text-align: center;
-}
-.cards section p {
-  background-color: lightgrey;
-  color: navy;
-  font-size: 1.5em;
-  letter-spacing: 0.2em;
-  padding: 4em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  line-height: 2em;
-}
-.cards section h2 {
-  padding-top: 2em; */
-/* padding-bottom: 0.2em; */
-/* } */
 
 .cards section {
   display: flex;
@@ -411,16 +371,17 @@ h3 {
   margin-bottom: 0em;
   background-color: #375e7c;
   color: whitesmoke;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .cards section p {
   background-color: lightgrey;
   color: navy;
-  font-size: 1.5em;
-  padding: 2em;
+  font-size: 1em;
+  padding: 1em;
   line-height: 2em;
   margin-top: 0em;
   margin-bottom: 0em;
+  height: 200px;
 }
 .cards section img {
   width: 400px;
@@ -428,9 +389,10 @@ h3 {
   height: 251px;
 }
 .cards section div {
-  width: 375px;
+  width: 370px;
+  height: 325px;
 }
 
-/* img {
+img {
   justify-content: center;
-} */
+}

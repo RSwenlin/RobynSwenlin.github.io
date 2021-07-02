@@ -57,6 +57,10 @@
   .cards section:nth-child(even) {
     flex-direction: column;
   }
+  .cards section div {
+    border-style: solid;
+    border-color: dimgray;
+  }
   form fieldset {
     margin-left: 200px;
   }
