@@ -8,6 +8,6 @@ fetch(apiURL)
   .then((jsObject) => {
     const data = document.querySelector("#data");
     data.textContent = jsObject.main.temp;
-    const current = document.querySelector(#)
+    // const current = document.querySelector(#)
     // const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
   });
