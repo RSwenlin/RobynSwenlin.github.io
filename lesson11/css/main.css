@@ -19,6 +19,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  border: 2rem solid;
+  border-color: dimgray transparent;
 }
 
 .headings {
@@ -56,6 +58,7 @@ h2 {
 
 main {
   margin: 0 auto;
+  width: 1099px;
 }
 
 footer {
@@ -97,6 +100,7 @@ nav {
   margin: 0 auto;
   background-color: lightgray;
   font-family: oswald;
+  padding: 2em;
 }
 
 .navigation {
@@ -108,6 +112,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
+  font-size: 1.75em;
 }
 
 .navigation li:first-child {
@@ -140,6 +145,7 @@ nav ul {
 
 .herodiv {
   position: relative;
+  width: 1099px;
 }
 .hero-ph {
   margin: 10px auto;
@@ -345,10 +351,11 @@ form label.top input:required:valid {
 }
 /* Home page css */
 .homepics {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   padding: 15px;
   background-color: #375e7c;
+  width: 1080px;
 }
 .homepics img {
   padding: 6px;

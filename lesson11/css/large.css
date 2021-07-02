@@ -1,22 +1,22 @@
 @media only screen and (min-width: 64em) {
   main {
-    max-width: 1080px;
+    max-width: 1099px;
   }
 
   .hero-ph {
     width: 100%;
   }
   .lgfh {
-    width: 1080px;
+    width: 1099px;
   }
   .soda {
-    width: 1080px;
+    width: 1099px;
   }
   .prestimg {
-    width: 1080px;
+    width: 1099px;
   }
   .idhomepic {
-    width: 1080px;
+    width: 1099px;
   }
   .forecast {
     display: contents;
@@ -58,8 +58,8 @@
     flex-direction: column;
   }
   .cards section div {
-    border-style: solid;
-    border-color: dimgray;
+    /* border-style: solid;
+    border-color: dimgray; */
   }
   .cards section img {
     width: 400px;
