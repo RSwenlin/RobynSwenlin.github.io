@@ -43,95 +43,90 @@
       </ul>
     </nav>
     <main>
-      <section1>
-        <img src="images/stormcenterimg.jpg" alt="stormIDimg"
-      /></section1>
-      <section2>
-        <h1 class="stormcenterh1">DarkSky Weather: Share Weather Activity</h1>
-        <form method="get" action="thanks.html">
-          <fieldset>
-            <legend>Share Weather Activity</legend>
-            <label class="top"
-              >First Name* <input type="text" name="fname" required
-            /></label>
-            <label class="top"
-              >Last Name* <input type="text" name="lname" required
-            /></label>
-            <label class="top"
-              >Zip Code* <input type="number" name="zipcode" required
-            /></label>
-            <label class="top"
-              >Phone # <input type="tel" name="phone" placeholder="8185678787"
-            /></label>
-            <label class="top"
-              >Email*
-              <input
-                type="email"
-                name="email"
-                placeholder="someone@mac.com"
-                required
-            /></label>
-            <label class="top"
-              >Website <input type="url" name="url" placeholder="http://"
-            /></label>
-          </fieldset>
-          <fieldset>
-            <legend>Location-Type of Weather-Additional Information</legend>
-            <div>Locations</div>
-            <label class="sbs"
-              ><input type="radio" name="location" value="Preston" />
-              Preston</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="location" value="Soda Springs" /> Soda
-              Springs</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="location" value="Fish Haven" /> Fish
-              Haven</label
-            >
-            <div>Type of Weather</div>
-            <label class="sbs" for="type-of-weather">Storm Type:</label>
-            <input list="type-of-storms" name="type-of-weather" />
-            <datalist id="type-of-storms">
-              <option value="Flash Floods"></option>
-              <option value="Hail"></option>
-              <option value="Hurricane"></option>
-              <option value="Thunderstorm"></option>
-              <option value="Tornado"></option>
-              <option value="High Winds"></option>
-            </datalist>
+      <h1 class="stormcenterh1">DarkSky Weather: Share Weather Activity</h1>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Share Weather Activity</legend>
+          <label class="top"
+            >First Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name* <input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Zip Code* <input type="number" name="zipcode" required
+          /></label>
+          <label class="top"
+            >Phone # <input type="tel" name="phone" placeholder="8185678787"
+          /></label>
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@mac.com"
+              required
+          /></label>
+          <label class="top"
+            >Website <input type="url" name="url" placeholder="http://"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Location-Type of Weather-Additional Information</legend>
+          <div>Locations</div>
+          <label class="sbs"
+            ><input type="radio" name="location" value="Preston" />
+            Preston</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="location" value="Soda Springs" /> Soda
+            Springs</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="location" value="Fish Haven" /> Fish
+            Haven</label
+          >
+          <div>Type of Weather</div>
+          <label class="sbs" for="type-of-weather">Storm Type:</label>
+          <input list="type-of-storms" name="type-of-weather" />
+          <datalist id="type-of-storms">
+            <option value="Flash Floods"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+            <option value="High Winds"></option>
+          </datalist>
 
-            <div>User in Danger?</div>
-            <label class="sbs"
-              ><input type="checkbox" name="Yes" value="yes" /> Yes</label
-            >
-            <label class="sbs"
-              ><input type="checkbox" name="No" value="yes" /> No</label
-            >
-            <div>Storm Severity</div>
-            <label class="sbs"
-              ><input type="range" name="severity" min="0" max="10" />
-              Severe</label
-            >
+          <div>User in Danger?</div>
+          <label class="sbs"
+            ><input type="checkbox" name="Yes" value="yes" /> Yes</label
+          >
+          <label class="sbs"
+            ><input type="checkbox" name="No" value="yes" /> No</label
+          >
+          <div>Storm Severity</div>
+          <label class="sbs"
+            ><input type="range" name="severity" min="0" max="10" />
+            Severe</label
+          >
 
-            <div>Additional Information</div>
-            <textarea rows="4" cols="50"> </textarea>
-          </fieldset>
-          <fieldset>
-            <legend>Date/Time</legend>
-            <label class="top"
-              >Date of Occurrence <input type="date" name="occurringDate"
-            /></label>
-            <label class="top"
-              >Time of Event <input type="time" name="timeOfEvent"
-            /></label>
-          </fieldset>
-          <input type="submit" value="Share My Weather!" class="submitBtn" />
-        </form>
-      </section2>
+          <div>Additional Information</div>
+          <textarea rows="4" cols="50"> </textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Date/Time</legend>
+          <label class="top"
+            >Date of Occurrence <input type="date" name="occurringDate"
+          /></label>
+          <label class="top"
+            >Time of Event <input type="time" name="timeOfEvent"
+          /></label>
+        </fieldset>
+        <input type="submit" value="Share My Weather!" class="submitBtn" />
+      </form>
     </main>
-    <footer>
+    <footer class="stormfooter">
       <div>
         <ul>
           <li>DarkSky Weather</li>

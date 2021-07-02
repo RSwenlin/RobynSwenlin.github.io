@@ -1,11 +1,22 @@
 @media only screen and (min-width: 64em) {
   main {
-    max-width: 960px;
+    max-width: 1080px;
   }
-  /* display: flex; */
 
   .hero-ph {
     width: 100%;
+  }
+  .lgfh {
+    width: 1080px;
+  }
+  .soda {
+    width: 1080px;
+  }
+  .prestimg {
+    width: 1080px;
+  }
+  .idhomepic {
+    width: 1080px;
   }
   .forecast {
     display: contents;
@@ -20,9 +31,7 @@
     max-width: 1048px;
   }
   .gallery-container {
-    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
-    /* column-gap: 10px;  */
   }
   .gallery-images:hover {
     box-shadow: 0 0 50px #333;
@@ -38,8 +47,20 @@
   form label.sbs {
     padding: 0.4rem;
   }
-  .town section {
+  .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cards section {
+    flex-direction: column;
+  }
+  .cards section:nth-child(even) {
+    flex-direction: column;
+  }
+  form fieldset {
+    margin-left: 200px;
+  }
+  input #submitBtn {
+    margin-left: 200px;
   }
 }

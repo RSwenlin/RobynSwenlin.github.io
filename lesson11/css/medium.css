@@ -22,15 +22,20 @@
     float: left;
   }
   .gallery-container {
-    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
-    /* column-gap: 10px;  */
   }
   footer {
     grid-template-columns: 1fr;
   }
-  .town section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .cards section {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .cards section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  form fieldset {
+    margin-left: 100px;
   }
 }
