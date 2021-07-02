@@ -42,17 +42,16 @@ header {
 }
 
 h1 {
-  margin: auto;
+  margin: 0 auto;
 }
 h2 {
   display: flex;
   color: whitesmoke;
+  margin: 0 auto;
   text-shadow: 0 0 3px darkorange, 0 0 5px navy;
   background-color: #375e7c;
   justify-content: center;
   padding: 1em;
-  margin-top: 0em;
-  margin-bottom: 0em;
 }
 
 main {
@@ -140,23 +139,14 @@ nav ul {
   display: block;
 }
 
-date {
-  color: darkslateblue;
-}
-
 .herodiv {
   position: relative;
-  /* width: 960px; */
 }
 .hero-ph {
   margin: 10px auto;
   background-color: slategray;
   border: 1px solid black;
   width: 49%;
-  /* position: relative; */
-}
-.lgfh {
-  max-width: 960px;
 }
 
 .weathersummary {
@@ -180,7 +170,6 @@ date {
 }
 .flex {
   display: flex;
-  /* flex-direction: row; */
   flex-flow: row wrap;
 }
 .flex-col {
@@ -249,15 +238,14 @@ article img {
 .map {
   float: none;
 }
+/* Gallery CSS */
 .gallery {
-  /* max-width: 1048px; */
   text-align: center;
   color: white;
   background-color: #375e7c;
   padding: 0.5em;
 }
 .gallery-main {
-  /* max-width: 1048px; */
   margin: 0.5em;
 }
 .gallery-container {
@@ -277,23 +265,30 @@ figcaption {
   background-color: whitesmoke;
   padding: 0.5em;
 }
-/* form */
+/* storm center css */
+main .section1 .section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 form fieldset {
   margin: 2rem 0;
   border: 1px solid #375e7c;
   border-radius: 10px;
   padding: 0.5rem 2%;
+  width: 500px;
 }
 form legend {
   color: #375e7c;
   margin: 0 1rem;
   padding: 0 0.5rem;
+  font-size: 20px;
 }
 form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #e18515;
+  color: #375e7c;
   font-size: 1rem;
 }
 form label.top input,
@@ -304,9 +299,8 @@ form label.top select {
   border: solid 1.2px darkgrey;
   border-radius: 3px;
   padding: 1rem;
-  color: #e18515;
-  /* width: auto; */
-  max-width: 20rem;
+  color: #375e7c;
+  max-width: 30rem;
   background-color: whitesmoke;
 }
 form label.sbs {
@@ -335,6 +329,8 @@ form label.top input:required:valid {
   padding: 1em;
   text-align: center;
 }
+
+/* thanks css */
 .thanks {
   background-color: #375e7c;
   color: white;
@@ -347,8 +343,8 @@ form label.top input:required:valid {
   padding: 1em;
   max-width: 360px;
 }
+/* Home page css */
 .homepics {
-  max-width: 960px;
   margin: auto;
   text-align: center;
   padding: 15px;
@@ -363,16 +359,17 @@ img:hover {
   opacity: 1;
 }
 
-.town section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 960px;
+.towns section {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   text-align: center;
   padding: 1em;
 }
 
-.town section img {
+.towns section img {
+  display: flex;
+  flex-direction: column;
   width: 90%;
   margin: 0 auto;
   border: darkslategrey;
@@ -387,7 +384,7 @@ h3 {
   margin-bottom: 0em;
   text-align: center;
 }
-.town section p {
+.cards section p {
   background-color: lightgrey;
   color: navy;
   font-size: 1.5em;
@@ -397,7 +394,7 @@ h3 {
   margin-bottom: 0em;
   line-height: 2em;
 }
-.town section h2 {
+.cards section h2 {
   padding-top: 2em;
   padding-bottom: 0.2em;
 }
