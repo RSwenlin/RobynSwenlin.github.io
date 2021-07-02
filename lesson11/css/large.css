@@ -61,10 +61,16 @@
     border-style: solid;
     border-color: dimgray;
   }
+  .cards section img {
+    width: 400px;
+    max-width: 100%;
+    height: 251px;
+  }
   form fieldset {
     margin-left: 200px;
   }
-  input #submitBtn {
-    margin-left: 200px;
+
+  .maps {
+    width: 100%;
   }
 }
