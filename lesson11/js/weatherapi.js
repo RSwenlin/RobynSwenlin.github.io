@@ -12,5 +12,7 @@ fetch(apiURL)
     currently.textContent = jsObject.weather.description;
     const humidity = document.querySelector("#humidity");
     humidity.textContent = jsObject.main.humidity;
+    const windspeed = document.querySelector("#wind");
+    windspeed.textContent = jsObject.wind.speed;
     // const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
   });
