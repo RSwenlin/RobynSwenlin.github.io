@@ -28,7 +28,7 @@ fetch(apiURL)
     const temperature = document.querySelector("#temp");
     temperature.textContent = jsObject.main.temp.toFixed(0);
     const currently = document.querySelector("#current");
-    currently.textContent = jsObject.weather.description;
+    currently.textContent = jsObject.main.feels_like.toFixed(0);
     const humidity = document.querySelector("#humidity");
     humidity.textContent = jsObject.main.humidity;
     const windspeed = document.querySelector("#wind");
