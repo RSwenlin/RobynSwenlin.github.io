@@ -2,13 +2,6 @@ header img {
   width: 80px;
   height: auto;
 }
-/* .banner {
-  background-color: darkorange;
-  color: white;
-  padding: 20px;
-  opacity: 50%;
-  display: none;
-} */
 
 header {
   height: auto;
@@ -227,7 +220,10 @@ th {
   background-color: black;
   color: whitesmoke;
 }
-article img {
+.article {
+  display: flex;
+}
+.article img {
   float: right;
   width: 60%;
   box-shadow: 0 0 10px navy;
