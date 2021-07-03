@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/fishhaven.js"></script>
+    <script defer src="js/windchill.js"></script>
   </head>
   <body>
     <header>
@@ -59,15 +61,15 @@
 
         <section class="weathersummary">
           <h3>Weather Summary</h3>
-          <div class="content">Currently: Rainy</div>
+          <div class="content">Currently: <span id="current"></span></div>
           <div class="content">
-            Current Temp: <span id="temp"></span>49&deg;
+            Current Temp: <span id="temp"></span>&deg; F
           </div>
           <div class="content">
             Wind Chill: <span id="windchill"></span>&deg;
           </div>
-          <div class="content">Humidity; 39%</div>
-          <div class="content">Wind Speed:<span id="wind"></span>20mph</div>
+          <div class="content">Humidity: <span id="humidity"></span>%</div>
+          <div class="content">Wind Speed: <span id="wind"></span> mph</div>
         </section>
       </div>
       <section class="forecast">
@@ -150,14 +152,5 @@
         </p>
       </div>
     </footer>
-    <script src="js/fishhaven.js"></script>
-    <script src="js/windchill.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["oswald"],
-        },
-      });
-    </script>
   </body>
 </html>
