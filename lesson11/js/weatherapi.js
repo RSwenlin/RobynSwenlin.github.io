@@ -6,7 +6,11 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityid}&APP
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    const temperature = document.querySelector("#temperature");
+    const temperature = document.querySelector("#temp");
     temperature.textContent = jsObject.main.temp;
-    const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const currently = document.querySelector("#current");
+    currently.textContent = jsObject.weather.description;
+    const humidity = document.querySelector("#humidity");
+    humidity.textContent = jsObject.main.humidity;
+    // const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
   });

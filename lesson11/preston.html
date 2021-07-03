@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/weatherapi.js"></script>
+    <script defer src="js/windchill.js"></script>
   </head>
   <body>
     <header>
@@ -54,18 +56,17 @@
           <source media="(max-width: 800px)" srcset="images/hero-medium.jpg" />
           <img class="prestimg" src="images/hero-large.jpg" alt="hero" />
         </picture>
-        <!-- <img class="hero-ph" src="images/id.jpg" alt="downtown"> -->
-        <!--<aside class="banner"></aside><!-->
+
         <section class="weathersummary">
           <h3>Weather Summary</h3>
-          <div class="content">Currently: Rainy</div>
+          <div class="content">Currently: <span id="current"></span></div>
           <div class="content">
-            Current Temp: <span id="temp"></span>49&deg;
+            Current Temp: <span id="temp"></span>&deg; F
           </div>
           <div class="content">
             Wind Chill: <span id="windchill"></span>&deg;
           </div>
-          <div class="content">Humidity; 39%</div>
+          <div class="content">Humidity; <span id="humidity"></span> %</div>
           <div class="content">Wind Speed:<span id="wind"></span>20mph</div>
         </section>
       </div>
@@ -120,8 +121,11 @@
             to visit my sister in Twin Falls, or when we drove to Yellowstone.
             The picture in this article is of Boise Idaho. It was such a
             fantastic picture that if I have to take it out I will be annoyed. I
-            have been to Boise a few times, maybe 3. I really liked Boise. The
-            rest of the article is to be continued....
+            have been to Boise a few times, maybe 3. I really liked Boise. I am
+            adding more text because now my picture won't stack. My only guess
+            is it stacked before when I had a lot more text. Who knows this may
+            or may not work. This assignment will be the death of me. The rest
+            of the article is to be continued....
           </p>
         </article>
       </section>
@@ -151,13 +155,5 @@
       </div>
     </footer>
     <script src="js/preston.js"></script>
-    <script src="js/windchill.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["oswald"],
-        },
-      });
-    </script>
   </body>
 </html>
