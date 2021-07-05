@@ -64,7 +64,7 @@ fetch(requestURL)
 
       let p = document.createElement("p");
 
-      p.innerHTML = `Upcoming Events ${x.events}`;
+      p.innerHTML = `Upcoming Events <br> ${x.events}`;
 
       card.append(p);
 
