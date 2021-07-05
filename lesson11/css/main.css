@@ -405,3 +405,18 @@ aside {
   background-color: #375e7c;
   padding: 0.5em;
 }
+
+.eventcards {
+  margin: 0 auto;
+  background-color: #375e7c;
+  opacity: 80%;
+  border: thick double black;
+  color: white;
+  width: 400px;
+  text-align: center;
+  padding-top: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 4em;
+  box-shadow: 0 0 20px black;
+}
