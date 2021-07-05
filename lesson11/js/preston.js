@@ -52,8 +52,8 @@ fetch(requestURL)
 
       p.innerHTML = `Upcoming Events ${x.events}`;
 
-      div.append(p);
+      card.append(p);
 
-      document.querySelector("dev.cards").append(card);
+      document.querySelector("div.cards").append(card);
     });
   });
