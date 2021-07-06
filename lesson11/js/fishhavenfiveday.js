@@ -1,9 +1,9 @@
-const cityid = "5585000";
-const APPID = "36e656b2905c89b5bb9203c9be1b4077";
+const cityidf = "5585000";
+const APPIDf = "36e656b2905c89b5bb9203c9be1b4077";
 
-const apiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&APPID=${APPID}&units=imperial`;
+const apiURLf = `https://api.openweathermap.org/data/2.5/forecast?id=${cityidf}&APPID=${APPIDf}&units=imperial`;
 
-fetch(apiUrl)
+fetch(apiUrlf)
   .then((response) => response.json())
   .then((jsObject) => {
     // console.log(jsObject);
