@@ -1,0 +1,249 @@
+header {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1200px;
+}
+h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1.2pt;
+}
+.logo img {
+  margin: 0 0.25rem 0 1rem;
+}
+.🍔 {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+nav {
+  margin: 0 2rem;
+  flex: 1 1 25%;
+  position: relative;
+  text-align: right;
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  overflow: hidden;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  color: royalblue;
+  padding: 0.5rem 1 rem;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: red;
+  font-weight: 700;
+}
+.responsive li {
+  display: block;
+  width: 150px;
+}
+.responsive a {
+  font-size: 1.3rem;
+}
+.responsive {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: red;
+}
+.responsive a,
+.responsive a:visited {
+  color: white;
+}
+body {
+  max-width: 1200px;
+}
+.red {
+  background-color: red;
+  color: white;
+  padding: 7em;
+  font-size: 20px;
+  text-align: center;
+}
+.red a {
+  color: yellow;
+  font-size: 25px;
+}
+.blue {
+  background-color: royalblue;
+  color: white;
+  padding: 7em;
+  font-size: 20px;
+  text-align: center;
+}
+.blue a {
+  color: yellow;
+  font-size: 25px;
+}
+.white {
+  color: black;
+  padding: 7em;
+  font-size: 20px;
+  text-align: center;
+}
+.white a {
+  color: royalblue;
+  font-size: 25px;
+}
+.black {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.black a {
+  color: white;
+}
+#form-div {
+  background-color: royalblue;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background-color: white;
+}
+.submit:hover {
+  color: #3498db;
+}
+#button-blue:hover {
+  background-color: red;
+  color: yellow;
+}
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#footer {
+  margin-bottom: -150px;
+  clear: both;
+  max-width: 1200px;
+}
+
+.section h3 {
+  border-bottom: solid 1px white;
+}
+
+.tomottoWrap {
+  position: relative;
+  background: red;
+}
+
+#tomotto {
+  color: yellow;
+  text-align: center;
+  width: 960px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 36px;
+  margin: auto;
+}
+
+.lookWrap {
+  position: relative;
+  background-color: royalblue;
+  float: left;
+  width: 100%;
+}
+
+#look {
+  margin: auto;
+  width: 700px;
+}
+
+.section {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+
+.section h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section a {
+  display: block;
+  color: white;
+}
+#lastmod #theyear {
+  color: white;
+}
+.events {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.events p {
+  text-align: center;
+}
+.events h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.events a {
+  color: white;
+}
+.events h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.gallery h1 {
+  background-color: royalblue;
+  color: white;
+  text-align: end;
+  padding: 12px;
+  margin-bottom: 0%;
+}
+.gallery h2 {
+  margin-top: 0%;
+  background-color: red;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 10px;
+}

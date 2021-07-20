@@ -1,0 +1,9 @@
+.gallery {
+  max-width: 1200px;
+}
+.gallery-main {
+  max-width: 1200px;
+}
+.gallery-container {
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burbank Chamber Contact Page</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <header>
+    <picture class="logo">
+      <img src="images/BCC.png" alt="logo" />
+    </picture>
+
+    <h1>BurbankCC</h1>
+
+    <nav>
+      <a class="🍔 nohover" href="#">
+        <svg
+          height="32px"
+          id="Layer_1"
+          style="enable-background: new 0 0 32 32"
+          version="1.1"
+          viewBox="0 0 32 32"
+          width="32px"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,
+          8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,
+          0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,
+          2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+          />
+        </svg>
+      </a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a class="ham" href="#">Menu</a></li>
+        <!-- <li class="highlight"><a href="#">Home</a></li> -->
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div id="form-main">
+      <div id="form-div">
+        <form class="form" id="form1">
+          <p class="name">
+            <input
+              name="name"
+              type="text"
+              class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+              placeholder="Name"
+              id="name"
+            />
+          </p>
+
+          <p class="email">
+            <input
+              name="email"
+              type="text"
+              class="validate[required,custom[email]] feedback-input"
+              id="email"
+              placeholder="Email"
+            />
+          </p>
+
+          <p class="text">
+            <textarea
+              name="text"
+              class="validate[required,length[6,300]] feedback-input"
+              id="comment"
+              placeholder="Comment"
+            ></textarea>
+          </p>
+
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-blue" />
+            <div class="ease"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+  <!-- <div id="footer"> -->
+    <div class="tomottoWrap">
+      <div id="tomotto">“We Support Your Mission.” -Burbank CC</div>
+    </div>
+    <div class="lookWrap">
+      <div id="look">
+        <div class="section">
+          <h3>Date</h3>
+          <a><span id="lastmod"></span></a>
+
+          <a>&copy; <span id="theyear"></span></a>
+        </div>
+
+        <div class="section">
+          <h3>Social Media</h3>
+          <a
+            target="_blank"
+            title="follow me on Twitter"
+            href="https://www.twitter.com/PLACEHOLDER"
+            ><img
+              alt="follow me on Twitter"
+              src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png"
+              border="0"
+          /></a>
+          <a
+            target="_blank"
+            title="follow me on facebook"
+            href="https://www.facebook.com/PLACEHOLDER"
+            ><img
+              alt="follow me on facebook"
+              src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png"
+              border="0"
+          /></a>
+        </div>
+        <div class="section">
+          <h3>Quick Nav</h3>
+          <a href="contact.html">Contact</a>
+          <a href="join.html">Join</a>
+          <a href="directory.html">Sponsor Directory</a>
+        </div>
+        <div class="section">
+          <h3>Contacts</h3>
+          <a href="mailto:info@burbankchamber.org">&#128231;Email</a>
+          <a href="tel:8188463111">&#128222;818-846-3111</a>
+          <a>&#9993; 200 W.Magnolia Blvd. </a>
+          <a>Burbank,CA 91502</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+</html>
