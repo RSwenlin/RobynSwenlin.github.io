@@ -1,10 +1,3 @@
-header {
-  margin: 1rem auto;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-  max-width: 1200px;
-}
 h1 {
   font-size: 1.5rem;
   letter-spacing: 1.2pt;
@@ -12,55 +5,71 @@ h1 {
 .logo img {
   margin: 0 0.25rem 0 1rem;
 }
-.🍔 {
-  text-decoration: none;
-  font-size: 1.5rem;
+header {
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5px;
+  justify-content: center;
+  margin-top: 0rem;
+  margin-left: 0rem;
 }
 nav {
-  margin: 0 2rem;
-  flex: 1 1 25%;
-  position: relative;
-  text-align: right;
+  margin-top: 0em;
+  margin: 0 auto;
+  background-color: royalblue;
+  font-family: oswald;
 }
+
 .navigation {
   list-style: none;
   padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  overflow: hidden;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
 .navigation li {
   display: none;
 }
 .navigation a {
   display: block;
-  color: royalblue;
-  padding: 0.5rem 1 rem;
+  padding: 0.75rem;
+  text-align: left;
   text-decoration: none;
-}
-.navigation a:hover {
-  color: red;
+  color: black;
   font-weight: 700;
 }
+
+.navigation a:hover {
+  color: black;
+  background-color: yellow;
+}
+.highlight:hover {
+  background-color: darkorange;
+}
+
 .responsive li {
   display: block;
-  width: 150px;
 }
-.responsive a {
-  font-size: 1.3rem;
-}
-.responsive {
-  position: absolute;
-  top: 45px;
-  right: 0;
-  background-color: red;
-}
-.responsive a,
-.responsive a:visited {
-  color: white;
-}
+
 body {
   max-width: 1200px;
 }
