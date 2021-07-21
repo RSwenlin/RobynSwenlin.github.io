@@ -1,0 +1,58 @@
+{
+    "business": [
+      {
+        "name": "Generation DCD",
+        "owner":"Teri Richardson",
+        "phoneNumber": "818-426-4784",
+        "address": "1001 W. Olive Ave. Burbank, CA 91506",
+        "webAdress":"http://www.generationdcd.com/home",
+        "imageurl": "https://static1.squarespace.com/static/5593a0e7e4b079bce031eb03/t/604713d1cadeb8183911bee5/1622538009636/"
+      },
+      
+        {
+          "name": "New York Film Academy",
+          "owner":"Director, Dan Mackler",
+          "phoneNumber": "818-333-3558",
+          "address": "3300 W. Riverside Dr.Burbank, CA 91505",
+          "webAdress":"https://www.nyfa.edu/",
+          "imageurl": "https://www.nyfa.edu/img/homepage/nyfa-header-homepage-small.png"
+        },
+        
+            {
+              "name": "Walt Disney Company",
+              "owner": "Joan McCarthy, Senior Manager",
+              "phone": "818-560-1000",
+              "address": "500 S. Buena Vista St. Burbank, CA 91521-9582",
+              "webAdress":"https://www.waltdisneystudios.com/",
+              "imageurl": "https://www.waltdisneystudios.com/static/79035588485e020263e9ccd07af637b7/TWDS_logo_black.svg"
+            },
+            
+                {
+                  "name": "Woodbury University",
+                  "owner": "Seta Javor, Executive Secretary",
+                  "phone":"818-767-0888",
+                  "address": "7500 N. Glenoaks Blvd. Burbank, CA 91504-1052",
+                  "webAdress":"https://woodbury.edu/",
+                  "imageurl": "https://teenlife.s3.amazonaws.com/media/uploads/listings/XZXnlqxttp93.jpg"
+                },
+                
+                    {
+                      "name": "Warner Bros. Studio Tour Hollywood",
+                      "owner": "Danny Kahn, Director",
+                      "phone": "818-977-3452",
+                      "address": "3400 Riverside Dr. Burbank, CA 91522",
+                      "webAdress":"https://www.wbstudiotour.com/",
+                      "imageurl": "https://s28943.pcdn.co/wp-content/themes/warnerbros/images/static-logo.png"
+                    },
+                    
+                        {
+                          "name": "Hollywood Burbank Airport",
+                          "owner":"Frank R. Miller, Executive Director",
+                          "phone": "818-840-8840",
+                          "address": "2627 N. Hollywood Way Burbank, CA 91505",
+                          "webAdress":"https://hollywoodburbankairport.com/",
+                          "imageurl": "https://hollywoodburbankairport.com/wp-content/themes/burbank/dist/images/logo.png"
+                        }
+      
+    ]
+}

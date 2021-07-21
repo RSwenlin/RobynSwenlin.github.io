@@ -62,10 +62,10 @@ nav ul {
   color: black;
   background-color: yellow;
 }
-.highlight:hover {
-  background-color: darkorange;
-}
 
+.highlight {
+  text-decoration: overline dashed blue;
+}
 .responsive li {
   display: block;
 }
@@ -114,18 +114,10 @@ body {
 .black a {
   color: white;
 }
-#form-div {
-  background-color: royalblue;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 50px;
-  width: 450px;
-  float: left;
-  left: 50%;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: -260px;
+
+form {
+  background-color: lemonchiffon;
+  padding: 25px;
 }
 textarea {
   width: 100%;
@@ -256,4 +248,40 @@ a {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 10px;
+}
+.director-container {
+  display: flex;
+  background-color: white;
+  color: royalblue;
+}
+.director-container div {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+  border-spacing: 2px;
+}
+.director-container h5 {
+  font-size: 25px;
+}
+.board-container {
+  display: flex;
+  background-color: white;
+  color: red;
+  margin-bottom: 5rem;
+}
+.board-container div {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+h4 {
+  background-color: black;
+  color: white;
+  padding: 9px;
+  margin-top: 0mm;
+  margin-bottom: 0mm;
+  text-align: end;
+}
+.cards {
+  display: grid;
 }
