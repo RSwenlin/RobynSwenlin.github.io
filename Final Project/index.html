@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="css/large.css" />
     <link ref="stylesheet" href="css/normalize.css" />
     <script defer src="js/script.js"></script>
+    <script defer src="js/weather.js"></script>
   </head>
   <body>
-    <div class="top-bar"></div>
     <header>
       <picture>
         <img src="images/bcc.png" alt="logo" />
@@ -49,6 +49,21 @@
           <img class="burbank-pic" src="images/burbanklg.jpg" alt="home-hero" />
         </picture>
       </div>
+      <section class="weather">
+        <div class="callout">
+          <div class="callout-header">Burbank Weather</div>
+          <span
+            class="closebtn"
+            onclick="this.parentElement.style.display='none';"
+            >x</span
+          >
+
+          <div class="callout-container">
+            Temp: <span id="temo"></span> 84&deg; F </div>
+            <div class="callout-container">Humidity<span id="humidity"></span> 47%
+          </div>
+          <div class="callout-container">Current: <span id="currently"></span>Partly Cloudy</div>
+      </section>
       <section class="red">
         <div>
           <h2>Member Benefits</h2>
