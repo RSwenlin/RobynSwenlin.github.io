@@ -1,58 +1,58 @@
 {
     "business": [
       {
-        "name": "Generation DCD",
-        "owner":"Teri Richardson",
-        "phoneNumber": "818-426-4784",
-        "address": "1001 W. Olive Ave. Burbank, CA 91506",
-        "webAdress":"http://www.generationdcd.com/home",
-        "imageurl": "https://static1.squarespace.com/static/5593a0e7e4b079bce031eb03/t/604713d1cadeb8183911bee5/1622538009636/"
+         "name": "Generation DCD",
+         "owner":"Teri Richardson",
+         "phone": "818-426-4784",
+         "address": "1001 W. Olive Ave. Burbank, CA 91506",
+         "webAddress":"http://www.generationdcd.com/home",
+         "imageurl": "https://static1.squarespace.com/static/5593a0e7e4b079bce031eb03/t/604713d1cadeb8183911bee5/1622538009636/"
       },
       
-        {
-          "name": "New York Film Academy",
-          "owner":"Director, Dan Mackler",
-          "phoneNumber": "818-333-3558",
-          "address": "3300 W. Riverside Dr.Burbank, CA 91505",
-          "webAdress":"https://www.nyfa.edu/",
-          "imageurl": "https://www.nyfa.edu/img/homepage/nyfa-header-homepage-small.png"
-        },
+      {
+         "name": "New York Film Academy",
+         "owner":"Director, Dan Mackler",
+         "phone": "818-333-3558",
+         "address": "3300 W. Riverside Dr.Burbank, CA 91505",
+         "webAddress":"https://www.nyfa.edu/",
+         "imageurl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/NYFA_logo%284%29.gif"
+      },
         
-            {
-              "name": "Walt Disney Company",
-              "owner": "Joan McCarthy, Senior Manager",
-              "phone": "818-560-1000",
-              "address": "500 S. Buena Vista St. Burbank, CA 91521-9582",
-              "webAdress":"https://www.waltdisneystudios.com/",
-              "imageurl": "https://www.waltdisneystudios.com/static/79035588485e020263e9ccd07af637b7/TWDS_logo_black.svg"
-            },
+      {
+         "name": "Walt Disney Company",
+         "owner": "Joan McCarthy, Senior Manager",
+         "phone": "818-560-1000",
+         "address": "500 S. Buena Vista St. Burbank, CA 91521-9582",
+         "webAddress":"https://www.waltdisneystudios.com/",
+         "imageurl": "https://www.waltdisneystudios.com/static/79035588485e020263e9ccd07af637b7/TWDS_logo_black.svg"
+      },
             
-                {
-                  "name": "Woodbury University",
-                  "owner": "Seta Javor, Executive Secretary",
-                  "phone":"818-767-0888",
-                  "address": "7500 N. Glenoaks Blvd. Burbank, CA 91504-1052",
-                  "webAdress":"https://woodbury.edu/",
-                  "imageurl": "https://teenlife.s3.amazonaws.com/media/uploads/listings/XZXnlqxttp93.jpg"
-                },
+      {
+         "name": "Woodbury University",
+         "owner": "Seta Javor, Executive Secretary",
+         "phone":"818-767-0888",
+         "address": "7500 N. Glenoaks Blvd. Burbank, CA 91504-1052",
+         "webAddress":"https://woodbury.edu/",
+         "imageurl": "https://teenlife.s3.amazonaws.com/media/uploads/listings/XZXnlqxttp93.jpg"
+      },
                 
-                    {
-                      "name": "Warner Bros. Studio Tour Hollywood",
-                      "owner": "Danny Kahn, Director",
-                      "phone": "818-977-3452",
-                      "address": "3400 Riverside Dr. Burbank, CA 91522",
-                      "webAdress":"https://www.wbstudiotour.com/",
-                      "imageurl": "https://s28943.pcdn.co/wp-content/themes/warnerbros/images/static-logo.png"
-                    },
+      {
+         "name": "Warner Bros. Studio Tour",
+         "owner": "Danny Kahn, Director",
+         "phone": "818-977-3452",
+         "address": "3400 Riverside Dr. Burbank, CA 91522",
+         "webAddress":"https://www.wbstudiotour.com/",
+         "imageurl": "https://s28943.pcdn.co/wp-content/themes/warnerbros/images/static-logo.png"
+      },
                     
-                        {
-                          "name": "Hollywood Burbank Airport",
-                          "owner":"Frank R. Miller, Executive Director",
-                          "phone": "818-840-8840",
-                          "address": "2627 N. Hollywood Way Burbank, CA 91505",
-                          "webAdress":"https://hollywoodburbankairport.com/",
-                          "imageurl": "https://hollywoodburbankairport.com/wp-content/themes/burbank/dist/images/logo.png"
-                        }
+      {
+         "name": "Hollywood Burbank Airport",
+         "owner":"Frank R. Miller, Executive Director",
+         "phone": "818-840-8840",
+         "address": "2627 N. Hollywood Way Burbank, CA 91505",
+         "webAddress":"https://hollywoodburbankairport.com/",
+         "imageurl": "data:image/png;base64,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"
+      }
       
     ]
 }

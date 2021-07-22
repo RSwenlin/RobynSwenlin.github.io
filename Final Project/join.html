@@ -4,80 +4,142 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Join Burbank of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link ref="stylesheet" href="css/normalize.css" />
     <script defer src="js/script.js"></script>
   </head>
+  <body>
+    <header>
+      <picture>
+        <img src="images/bcc.png" alt="logo" />
+      </picture>
+      <section class="headings">
+        <h1>BurbankCC</h1>
+      </section>
 
-  <header>
-    <picture>
-      <img src="images/bcc.png" alt="logo" />
-    </picture>
-    <section class="headings">
-      <h1>BurbankCC</h1>
-    </section>
-
-    <nav>
-      <ul class="navigation">
-        <li><a class="ham" href="#">&#9776; Menu</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="city.html">City</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li class="highlight"><a href="#">Join</a></li>
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="city.html">City</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li class="highlight"><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="join">Join the Burbank Chamber of Commerce Today!</h1>
+      <form method="get" action="confirmation.html">
+        <fieldset>
+          <legend>Application form for Burbank Chamber of Commerce</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name* <input type="text" name="lname" required
+          /></label>
+          <label class="top">Title <input type="text" name="title" /></label>
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="somoeone@mac.com"
+              required
+          /></label>
+          <label class="top"></label>
+            Cell phone #
+            <input type="tel" name="phone" placeholder="8185678787"
+          /></label>
+        </fieldset>
+        <fieldset>
+        <legend>Business Information</legend>
+        <label class="mid"
+          >Business Name* <input type="text" name="bname" required
+        /></label>
+        <label class="mid"
+        >Business address <input type="text" name="address"
+      /></label>
+      <label class="top"
+            >Website address <input type="url" name="url" placeholder="http://"
+          /></label>
+          <div>Business Description:</div>
+          <textarea rows="2" cols="30"> </textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Membership Level Selection</legend>
+          
+          <label class="end"><input type="radio" name="level" value="Non-Profit($100)">Non-Profit($100)</label>
+          <label class="end"><input type="radio" name="level" value="Bronze($200)">Bronze($200)</label>
+          <label class="end"><input type="radio" name="Level" value="Silver($400)">Silver($400)</label>
+          <label class="end"><input type="radio" name="Level" value="Gold($1,000)">Gold($1,000)</label>
+        </fieldset>
+        <input type="submit" value="Join BurbankCC" class="submitBtn" />
+      </form>
+      <ul class="join-1">
+        <li>
+        Non-Profit=(Basic)Directory listing with logo
+        </li>
+        <li>Bronze Level=Basic+FB Feature</li>
+        <li>Silver Level=Basic+Bronze+Invitation to Annual Luncheon-Paper ADV in two City Events</li>
+        <li>Gold Level=Basic+Bronze+Invitation to Dinner Banquet-Flyer advertising in six City Events-Business Training opportunities</li>
       </ul>
-    </nav>
-  </header>
-  <body></body>
-  <footer>
-    <div class="tomottoWrap">
-      <div id="tomotto">“We Support Your Mission.” -Burbank CC</div>
-    </div>
-    <div class="lookWrap">
-      <div id="look">
-        <div class="section">
-          <h3>Date</h3>
-          <a><span id="lastmod"></span></a>
+    </main>
+    <footer>
+      <div class="tomottoWrap">
+        <div id="tomotto">“We Support Your Mission.” -Burbank CC</div>
+      </div>
+      <div class="lookWrap">
+        <div id="look">
+          <div class="section">
+            <h3>Date</h3>
+            <a><span id="lastmod"></span></a>
 
-          <a>&copy; <span id="theyear"></span></a>
-        </div>
+            <a>&copy; <span id="theyear"></span></a>
+          </div>
 
-        <div class="section">
-          <h3>Social Media</h3>
-          <a
-            target="_blank"
-            title="follow me on Twitter"
-            href="https://www.twitter.com/PLACEHOLDER"
-            ><img
-              alt="follow me on Twitter"
-              src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png"
-              border="0"
-          /></a>
-          <a
-            target="_blank"
-            title="follow me on facebook"
-            href="https://www.facebook.com/PLACEHOLDER"
-            ><img
-              alt="follow me on facebook"
-              src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png"
-              border="0"
-          /></a>
-        </div>
-        <div class="section">
-          <h3>Quick Nav</h3>
-          <a href="contact.html">Contact</a>
-          <a href="join.html">Join</a>
-          <a href="directory.html">Sponsor Directory</a>
-        </div>
-        <div class="section">
-          <h3>Contacts</h3>
-          <a href="mailto:info@burbankchamber.org">&#128231;Email</a>
-          <a href="tel:8188463111">&#128222;818-846-3111</a>
-          <a>&#9993; 200 W.Magnolia Blvd. </a>
-          <a>Burbank,CA 91502</a>
+          <div class="section">
+            <h3>Social Media</h3>
+            <a
+              target="_blank"
+              title="follow me on Twitter"
+              href="https://www.twitter.com/PLACEHOLDER"
+              ><img
+                alt="follow me on Twitter"
+                src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png"
+                border="0"
+            /></a>
+            <a
+              target="_blank"
+              title="follow me on facebook"
+              href="https://www.facebook.com/PLACEHOLDER"
+              ><img
+                alt="follow me on facebook"
+                src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png"
+                border="0"
+            /></a>
+          </div>
+          <div class="section">
+            <h3>Quick Nav</h3>
+            <a href="contact.html">Contact</a>
+            <a href="join.html">Join</a>
+            <a href="directory.html">Sponsor Directory</a>
+          </div>
+          <div class="section">
+            <h3>Contacts</h3>
+            <a href="mailto:info@burbankchamber.org">&#128231;Email</a>
+            <a href="tel:8188463111">&#128222;818-846-3111</a>
+            <a>&#9993; 200 W.Magnolia Blvd. </a>
+            <a>Burbank,CA 91502</a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </body>
 </html>

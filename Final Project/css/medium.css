@@ -24,3 +24,6 @@
 .gallery-container {
   grid-template-columns: repeat(2, 1fr);
 }
+.cards {
+  display: grid;
+}
